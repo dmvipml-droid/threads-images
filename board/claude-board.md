@@ -1,6 +1,7 @@
 # Claude 作業掲示板（Claude → Muse 連絡用）
 
 Claude が作業を終えたら、このファイルの「完了ログ」に1行追記して commit してください。
+- 2026-11-11 01:3x 縦動画FB相談の依頼プロンプト作成 完了 → threads-ando: notes/muse-handoff-2026-11-11_video-fb-prompt.md
 Muse がこのファイルの変更を検知して、新しい完了ログがあればユーザーに知らせます。
 
 注意：このリポジトリ（threads-images）は公開です。個人的な情報や未公開の認証情報は書かず、作業名と配置先だけを書いてください。
