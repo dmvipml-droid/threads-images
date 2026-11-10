@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11 00:22 JST",
+ "generated_at": "2026-11-11 00:29 JST",
  "counts": {
   "pending": 8,
   "approved": 3,
@@ -30,7 +30,8 @@
     "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-20261112-kfc-map.png"
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/ando-x01-touyu.json",
@@ -56,7 +57,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/ando-x02-yaizu.json",
@@ -82,7 +84,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/ando-x03-chitose.json",
@@ -106,7 +109,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/ando-x04-honda.json",
@@ -130,7 +134,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/ando-x06-yatsushiro.json",
@@ -154,7 +159,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/ando-x07-dcsite.json",
@@ -178,7 +184,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/ando-x09-hayashima.json",
@@ -202,7 +209,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/20261108-125018-00.json",
@@ -226,7 +234,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/20261108-125018-01.json",
@@ -250,7 +259,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/ando-20261111-12.json",
@@ -276,7 +286,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-01_下書き3回目.json#1",
@@ -295,7 +306,8 @@
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-p01.png",
    "reply_image_urls": null,
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-01_下書き3回目.json#2",
@@ -314,7 +326,8 @@
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-p04.png",
    "reply_image_urls": null,
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-01_下書き3回目.json#3",
@@ -333,7 +346,8 @@
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-p02.png",
    "reply_image_urls": null,
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-01_下書き3回目.json#4",
@@ -352,7 +366,8 @@
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-p05.png",
    "reply_image_urls": null,
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-01_下書き3回目.json#5",
@@ -371,7 +386,8 @@
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-p03.png",
    "reply_image_urls": null,
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-01_下書き3回目.json#6",
@@ -389,7 +405,8 @@
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-q01.png",
    "reply_image_urls": null,
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-01_下書き3回目.json#7",
@@ -406,7 +423,8 @@
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-p09.png",
    "reply_image_urls": null,
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-01_下書き3回目.json#8",
@@ -425,7 +443,8 @@
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-p06.png",
    "reply_image_urls": null,
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-01_下書き3回目.json#9",
@@ -443,7 +462,8 @@
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-p10.png",
    "reply_image_urls": null,
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-01_下書き3回目.json#10",
@@ -461,7 +481,8 @@
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-q02.png",
    "reply_image_urls": null,
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-04_ネタ回.json#1",
@@ -485,7 +506,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-04_ネタ回.json#2",
@@ -511,7 +533,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-04_ネタ回.json#3",
@@ -535,7 +558,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-04_ネタ回.json#4",
@@ -559,7 +583,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-05_ネタ回.json#1",
@@ -585,7 +610,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-05_ネタ回.json#2",
@@ -611,7 +637,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-05_ネタ回.json#3",
@@ -637,7 +664,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-07_ネタ回.json#1",
@@ -663,7 +691,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-07_ネタ回.json#2",
@@ -687,7 +716,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-07_ネタ回.json#3",
@@ -713,7 +743,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-07_ネタ回.json#4",
@@ -741,7 +772,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-07_ネタ回.json#5",
@@ -767,7 +799,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-07_ネタ回.json#6",
@@ -793,7 +826,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-07_ネタ回.json#7",
@@ -821,7 +855,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-07_ネタ回.json#8",
@@ -847,7 +882,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-08_ranking.json#1",
@@ -873,7 +909,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-08_つなぎ.json#1",
@@ -897,7 +934,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-08_つなぎ.json#2",
@@ -921,7 +959,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-10_kfc_nango.json#1",
@@ -945,7 +984,8 @@
     "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-20261112-kfc-map.png"
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-10_x01_touyu.json#1",
@@ -971,7 +1011,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-10_x02_yaizu.json#1",
@@ -997,7 +1038,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-10_x03_chitose.json#1",
@@ -1021,7 +1063,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-10_x04_honda.json#1",
@@ -1045,7 +1088,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-10_x06_yatsushiro.json#1",
@@ -1069,7 +1113,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-10_x07_dcsite.json#1",
@@ -1093,7 +1138,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-10_x09_hayashima.json#1",
@@ -1117,7 +1163,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-10_x05_bees.json#1",
@@ -1141,7 +1188,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-10_x08_inzai.json#1",
@@ -1163,7 +1211,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "2026-11-10_x10_busan.json#1",
@@ -1187,7 +1236,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/20261031-192707-00.json",
@@ -1204,7 +1254,8 @@
    "image_url": null,
    "reply_image_urls": null,
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/20261031-192707-01.json",
@@ -1220,7 +1271,8 @@
    "image_url": null,
    "reply_image_urls": null,
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/20261031-192707-02.json",
@@ -1237,7 +1289,8 @@
    "image_url": null,
    "reply_image_urls": null,
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/20261031-192707-03.json",
@@ -1253,7 +1306,8 @@
    "image_url": null,
    "reply_image_urls": null,
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/ando-20261107-01.json",
@@ -1277,7 +1331,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/ando-20261107-02.json",
@@ -1303,7 +1358,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/ando-20261108-01.json",
@@ -1327,7 +1383,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/ando-20261108-02.json",
@@ -1351,7 +1408,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/ando-20261108-11.json",
@@ -1377,7 +1435,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/ando-20261108-12.json",
@@ -1401,7 +1460,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/ando-20261108-20.json",
@@ -1427,7 +1487,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/ando-20261109-11.json",
@@ -1453,7 +1514,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/ando-20261109-12.json",
@@ -1481,7 +1543,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/ando-20261109-13.json",
@@ -1507,7 +1570,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/ando-20261110-12.json",
@@ -1533,7 +1597,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/ando-20261111-11.json",
@@ -1561,7 +1626,8 @@
     null
    ],
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/ando-p01.json",
@@ -1580,7 +1646,8 @@
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-p01.png",
    "reply_image_urls": null,
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/ando-p02.json",
@@ -1599,7 +1666,8 @@
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-p02.png",
    "reply_image_urls": null,
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/ando-p03.json",
@@ -1618,7 +1686,8 @@
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-p03.png",
    "reply_image_urls": null,
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/ando-p04.json",
@@ -1637,7 +1706,8 @@
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-p04.png",
    "reply_image_urls": null,
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/ando-p05.json",
@@ -1656,7 +1726,8 @@
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-p05.png",
    "reply_image_urls": null,
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/ando-p06.json",
@@ -1675,7 +1746,8 @@
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-p06.png",
    "reply_image_urls": null,
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/ando-p09.json",
@@ -1692,7 +1764,8 @@
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-p09.png",
    "reply_image_urls": null,
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/ando-p10.json",
@@ -1710,7 +1783,8 @@
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-p10.png",
    "reply_image_urls": null,
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/ando-q01.json",
@@ -1728,7 +1802,8 @@
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-q01.png",
    "reply_image_urls": null,
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   },
   {
    "id": "queue/ando-q02.json",
@@ -1746,7 +1821,8 @@
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-q02.png",
    "reply_image_urls": null,
    "hook_rationale": null,
-   "expected_reaction": null
+   "expected_reaction": null,
+   "anticipated_pushback": null
   }
  ]
 }

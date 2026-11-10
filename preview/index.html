@@ -62,6 +62,7 @@ function render(){
       + replies
       + (i.hook_rationale ? '<div class="note-box"><span class="nlabel">フックが成り立つ理由</span>'+esc(i.hook_rationale)+'</div>' : '')
       + (i.expected_reaction ? '<div class="note-box"><span class="nlabel">想定する視聴者の反応</span>'+esc(i.expected_reaction)+'</div>' : '')
+      + (i.anticipated_pushback ? '<div class="note-box"><span class="nlabel">想定されるツッコミどころ</span>'+esc(i.anticipated_pushback)+'</div>' : '')
       + '</div>';
   }).join("");
   document.querySelectorAll("#tabs button").forEach(b => b.classList.toggle("active", b.dataset.g===current));
