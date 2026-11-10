@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11 00:09 JST",
+ "generated_at": "2026-11-11 00:22 JST",
  "counts": {
   "pending": 8,
   "approved": 3,
@@ -28,7 +28,9 @@
     null,
     "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-20261112-kfc-r3.png",
     "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-20261112-kfc-map.png"
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/ando-x01-touyu.json",
@@ -52,7 +54,9 @@
     null,
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/ando-x02-yaizu.json",
@@ -76,7 +80,9 @@
     null,
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/ando-x03-chitose.json",
@@ -98,7 +104,9 @@
     null,
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/ando-x04-honda.json",
@@ -120,7 +128,9 @@
     null,
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/ando-x06-yatsushiro.json",
@@ -142,7 +152,9 @@
     null,
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/ando-x07-dcsite.json",
@@ -164,7 +176,9 @@
     null,
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/ando-x09-hayashima.json",
@@ -186,7 +200,9 @@
     null,
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/20261108-125018-00.json",
@@ -208,7 +224,9 @@
     null,
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/20261108-125018-01.json",
@@ -230,7 +248,9 @@
     null,
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/ando-20261111-12.json",
@@ -254,7 +274,9 @@
     "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-20261111-12-r3-v2.png",
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-01_下書き3回目.json#1",
@@ -271,7 +293,9 @@
     "ここからは見立てです。\n\nエネルギーをアメリカに頼るほど、日米の通商や外交の話が、ガソリン代や電気代とつながりやすくなる。\n中東から離れて得た安全と、新しく生まれた依存。\nこのバランスを次の政策がどう取るか、見ておきたいところです。"
    ],
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-p01.png",
-   "reply_image_urls": null
+   "reply_image_urls": null,
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-01_下書き3回目.json#2",
@@ -288,7 +312,9 @@
     "中国は国の政策です。2022年、国が全国8つの計算拠点を決め、うち5つを西部(内モンゴル・貴州・甘粛・寧夏・成都と重慶)に置きました。\n東部は土地とエネルギーが足りないからです。\n\n同じデータセンターでも、米国は通信、北欧は自然、中国は政策。\nでは日本はどこに建つのか。次の投稿で北海道の話をします。"
    ],
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-p04.png",
-   "reply_image_urls": null
+   "reply_image_urls": null,
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-01_下書き3回目.json#3",
@@ -305,7 +331,9 @@
     "電気代には時間差もあります。燃料費の調整は、3〜5か月前の燃料価格で決まる仕組み。\n\n冬の補助は1〜3月使用分で検討中ですが、まだ決まっていません。\n使う量が増える冬に補助がどうなるか。そこが次の分かれ目です。"
    ],
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-p02.png",
-   "reply_image_urls": null
+   "reply_image_urls": null,
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-01_下書き3回目.json#4",
@@ -322,7 +350,9 @@
     "そして北京から約350km。通信の往復は約4ミリ秒です。\n\n寒い・電気が安い・大都市に近い。中国の中でこの3つが一番そろうのが内モンゴルで、国の8つの計算拠点の一つにもなりました。\nここに集まるのは、ほぼ必然です。"
    ],
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-p05.png",
-   "reply_image_urls": null
+   "reply_image_urls": null,
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-01_下書き3回目.json#5",
@@ -339,7 +369,9 @@
     "答えは「市場指向型」。\n\n水はどこでも手に入るので、水のある場所に縛られない。\nむしろ製品が重くて運ぶのにお金がかかるので、飲む人が多い大都市の近くに建てたほうが得、という考え方です。\n\n同じ「水を使う工業」でも、水の質が決め手の半導体と、運ぶコストが決め手のビール。地図に落とすと、立地がきれいに分かれます。"
    ],
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-p03.png",
-   "reply_image_urls": null
+   "reply_image_urls": null,
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-01_下書き3回目.json#6",
@@ -355,7 +387,9 @@
     "Q3 答えは①地下水。熊本市は水道水の100%が地下水です。\nビール工場との違いも書いています。\n\n詳しくはこのスレッドで\n{{thread:ando-p03}}"
    ],
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-q01.png",
-   "reply_image_urls": null
+   "reply_image_urls": null,
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-01_下書き3回目.json#7",
@@ -370,7 +404,9 @@
     "一方、クウェートやカタールには、こうした大きな抜け道がありません。海峡の内側に、国ごと閉じ込められた形です。\n\nただ、IEAによると、海峡が閉じたときに抜け道へ回せる余力は1日350万〜550万バレル。平時に海峡を通る量は約2000万バレルなので、多くても4分の1ほどです。\n\n地形が決めた「出口の数」は、平時より有事に効いてきます。"
    ],
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-p09.png",
-   "reply_image_urls": null
+   "reply_image_urls": null,
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-01_下書き3回目.json#8",
@@ -387,7 +423,9 @@
     "北海道は、この条件にはまります。\n\n涼しくて冷やしやすく、風力などの再エネも多い。国の資料の地図には石狩市の名前もあります。\n北海道電力ネットワークは、石狩と苫小牧に変電所を新しく建てる計画です。\n\n次に注目したいのは、本州とつなぐ光ファイバーや海底ケーブルの増強です。"
    ],
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-p06.png",
-   "reply_image_urls": null
+   "reply_image_urls": null,
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-01_下書き3回目.json#9",
@@ -403,7 +441,9 @@
     "冷やす条件だけなら、内モンゴルに分があります。\n\nそれでも日本の候補が北海道になるのは、データセンターの立地が気温だけで決まらないから。\n国の中の電力網や通信網、使う人とつながれる寒冷地はどこか。同じ物差しで国ごとに見ると、答えが変わります。"
    ],
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-p10.png",
-   "reply_image_urls": null
+   "reply_image_urls": null,
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-01_下書き3回目.json#10",
@@ -419,7 +459,9 @@
     "Q3 答えは②データ。電気がある場所に建てて、データを光ファイバーで送ります。\n\n詳しくはこのスレッドで\n{{thread:ando-p06}}"
    ],
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-q02.png",
-   "reply_image_urls": null
+   "reply_image_urls": null,
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-04_ネタ回.json#1",
@@ -441,7 +483,9 @@
     null,
     "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-20261107-01-map.png",
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-04_ネタ回.json#2",
@@ -465,7 +509,9 @@
     "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-20261107-02-map.png",
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-04_ネタ回.json#3",
@@ -487,7 +533,9 @@
     null,
     "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-20261108-01.png",
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-04_ネタ回.json#4",
@@ -509,7 +557,9 @@
     "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-20261108-02-world.png",
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-05_ネタ回.json#1",
@@ -533,7 +583,9 @@
     null,
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-05_ネタ回.json#2",
@@ -557,7 +609,9 @@
     null,
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-05_ネタ回.json#3",
@@ -581,7 +635,9 @@
     null,
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-07_ネタ回.json#1",
@@ -605,7 +661,9 @@
     "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-20261108-11-map2.png",
     "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-20261108-11-route.png",
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-07_ネタ回.json#2",
@@ -627,7 +685,9 @@
     null,
     "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-20261108-12-map2.png",
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-07_ネタ回.json#3",
@@ -651,7 +711,9 @@
     "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-20261109-11-basin.png",
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-07_ネタ回.json#4",
@@ -677,7 +739,9 @@
     "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-20261109-12-r4-v2.png",
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-07_ネタ回.json#5",
@@ -701,7 +765,9 @@
     "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-20261110-11-map2.png",
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-07_ネタ回.json#6",
@@ -725,7 +791,9 @@
     "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-20261110-12-r3-v2.png",
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-07_ネタ回.json#7",
@@ -751,7 +819,9 @@
     "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-20261111-11-r4-v2.png",
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-07_ネタ回.json#8",
@@ -775,7 +845,9 @@
     "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-20261111-12-r3-v2.png",
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-08_ranking.json#1",
@@ -799,7 +871,9 @@
     null,
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-08_つなぎ.json#1",
@@ -821,7 +895,9 @@
     "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-b1109-01-map.png",
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-08_つなぎ.json#2",
@@ -843,7 +919,9 @@
     null,
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-10_kfc_nango.json#1",
@@ -865,7 +943,9 @@
     null,
     "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-20261112-kfc-r3.png",
     "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-20261112-kfc-map.png"
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-10_x01_touyu.json#1",
@@ -889,7 +969,9 @@
     null,
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-10_x02_yaizu.json#1",
@@ -913,7 +995,9 @@
     null,
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-10_x03_chitose.json#1",
@@ -935,7 +1019,9 @@
     null,
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-10_x04_honda.json#1",
@@ -957,7 +1043,9 @@
     null,
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-10_x06_yatsushiro.json#1",
@@ -979,7 +1067,9 @@
     null,
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-10_x07_dcsite.json#1",
@@ -1001,7 +1091,9 @@
     null,
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-10_x09_hayashima.json#1",
@@ -1023,7 +1115,9 @@
     null,
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-10_x05_bees.json#1",
@@ -1045,7 +1139,9 @@
     null,
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-10_x08_inzai.json#1",
@@ -1065,7 +1161,9 @@
     null,
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "2026-11-10_x10_busan.json#1",
@@ -1087,7 +1185,9 @@
     null,
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/20261031-192707-00.json",
@@ -1102,7 +1202,9 @@
     "今年の秋は流域の雨がほぼ平年並みに戻り、運河庁は10月15日から1日33枠に増やしました。それでも水不足は続いているとしています。海の近道が、熱帯の雨しだいで太さを変える。運河は土木というより、気候のインフラなんです。"
    ],
    "image_url": null,
-   "reply_image_urls": null
+   "reply_image_urls": null,
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/20261031-192707-01.json",
@@ -1116,7 +1218,9 @@
     "もう一段深い話。エルニーニョの冬は、エネルギーにも絡みます。北東アジアのスポットLNGは、すでに2月末の約3倍。冬の嵐や寒波が重なれば、暖房用の燃料の取り合いが強まりやすい。中東の海峡と太平洋の海の温度、別々のニュースが同じ冬に重なっています。"
    ],
    "image_url": null,
-   "reply_image_urls": null
+   "reply_image_urls": null,
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/20261031-192707-02.json",
@@ -1131,7 +1235,9 @@
     "反対側の見方も置いておきます。米大統領は9月26日にイランの再開案を拒否し、イラン外相は10月18日に「案はまだ有効」と述べました。カタールが仲介しています。どちらの言い分が通るかより、海峡の北岸がイランだという位置関係が、交渉の重さを決めていると僕は見ています。"
    ],
    "image_url": null,
-   "reply_image_urls": null
+   "reply_image_urls": null,
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/20261031-192707-03.json",
@@ -1145,7 +1251,9 @@
     "反対側の見方も。北の果ては電気が安くても、利用者の多い大都市から遠い。データの往復に時間がかかるので、すぐ答えを返す処理より、AIを鍛える重い計算に向く場所だと言われます。立地は「電気」と「距離」の綱引きです。"
    ],
    "image_url": null,
-   "reply_image_urls": null
+   "reply_image_urls": null,
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/ando-20261107-01.json",
@@ -1167,7 +1275,9 @@
     null,
     "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-20261107-01-map.png",
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/ando-20261107-02.json",
@@ -1191,7 +1301,9 @@
     "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-20261107-02-map.png",
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/ando-20261108-01.json",
@@ -1213,7 +1325,9 @@
     null,
     "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-20261108-01.png",
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/ando-20261108-02.json",
@@ -1235,7 +1349,9 @@
     "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-20261108-02-world.png",
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/ando-20261108-11.json",
@@ -1259,7 +1375,9 @@
     "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-20261108-11-map2.png",
     "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-20261108-11-route.png",
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/ando-20261108-12.json",
@@ -1281,7 +1399,9 @@
     null,
     "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-20261108-12-map2.png",
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/ando-20261108-20.json",
@@ -1305,7 +1425,9 @@
     null,
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/ando-20261109-11.json",
@@ -1329,7 +1451,9 @@
     "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-20261109-11-basin.png",
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/ando-20261109-12.json",
@@ -1355,7 +1479,9 @@
     "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-20261109-12-r4-v2.png",
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/ando-20261109-13.json",
@@ -1379,7 +1505,9 @@
     "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-20261109-11-basin-v2.png",
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/ando-20261110-12.json",
@@ -1403,7 +1531,9 @@
     "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-20261110-12-r3-v2.png",
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/ando-20261111-11.json",
@@ -1429,7 +1559,9 @@
     "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-20261111-11-r4-v2.png",
     null,
     null
-   ]
+   ],
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/ando-p01.json",
@@ -1446,7 +1578,9 @@
     "ここからは見立てです。\n\nエネルギーをアメリカに頼るほど、日米の通商や外交の話が、ガソリン代や電気代とつながりやすくなる。\n中東から離れて得た安全と、新しく生まれた依存。\nこのバランスを次の政策がどう取るか、見ておきたいところです。"
    ],
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-p01.png",
-   "reply_image_urls": null
+   "reply_image_urls": null,
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/ando-p02.json",
@@ -1463,7 +1597,9 @@
     "電気代には時間差もあります。燃料費の調整は、3〜5か月前の燃料価格で決まる仕組み。\n\n冬の補助は1〜3月使用分で検討中ですが、まだ決まっていません。\n使う量が増える冬に補助がどうなるか。そこが次の分かれ目です。"
    ],
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-p02.png",
-   "reply_image_urls": null
+   "reply_image_urls": null,
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/ando-p03.json",
@@ -1480,7 +1616,9 @@
     "答えは「市場指向型」。\n\n水はどこでも手に入るので、水のある場所に縛られない。\nむしろ製品が重くて運ぶのにお金がかかるので、飲む人が多い大都市の近くに建てたほうが得、という考え方です。\n\n同じ「水を使う工業」でも、水の質が決め手の半導体と、運ぶコストが決め手のビール。地図に落とすと、立地がきれいに分かれます。"
    ],
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-p03.png",
-   "reply_image_urls": null
+   "reply_image_urls": null,
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/ando-p04.json",
@@ -1497,7 +1635,9 @@
     "中国は国の政策です。2022年、国が全国8つの計算拠点を決め、うち5つを西部(内モンゴル・貴州・甘粛・寧夏・成都と重慶)に置きました。\n東部は土地とエネルギーが足りないからです。\n\n同じデータセンターでも、米国は通信、北欧は自然、中国は政策。\nでは日本はどこに建つのか。次の投稿で北海道の話をします。"
    ],
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-p04.png",
-   "reply_image_urls": null
+   "reply_image_urls": null,
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/ando-p05.json",
@@ -1514,7 +1654,9 @@
     "そして北京から約350km。通信の往復は約4ミリ秒です。\n\n寒い・電気が安い・大都市に近い。中国の中でこの3つが一番そろうのが内モンゴルで、国の8つの計算拠点の一つにもなりました。\nここに集まるのは、ほぼ必然です。"
    ],
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-p05.png",
-   "reply_image_urls": null
+   "reply_image_urls": null,
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/ando-p06.json",
@@ -1531,7 +1673,9 @@
     "北海道は、この条件にはまります。\n\n涼しくて冷やしやすく、風力などの再エネも多い。国の資料の地図には石狩市の名前もあります。\n北海道電力ネットワークは、石狩と苫小牧に変電所を新しく建てる計画です。\n\n次に注目したいのは、本州とつなぐ光ファイバーや海底ケーブルの増強です。"
    ],
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-p06.png",
-   "reply_image_urls": null
+   "reply_image_urls": null,
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/ando-p09.json",
@@ -1546,7 +1690,9 @@
     "一方、クウェートやカタールには、こうした大きな抜け道がありません。海峡の内側に、国ごと閉じ込められた形です。\n\nただ、IEAによると、海峡が閉じたときに抜け道へ回せる余力は1日350万〜550万バレル。平時に海峡を通る量は約2000万バレルなので、多くても4分の1ほどです。\n\n地形が決めた「出口の数」は、平時より有事に効いてきます。"
    ],
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-p09.png",
-   "reply_image_urls": null
+   "reply_image_urls": null,
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/ando-p10.json",
@@ -1562,7 +1708,9 @@
     "冷やす条件だけなら、内モンゴルに分があります。\n\nそれでも日本の候補が北海道になるのは、データセンターの立地が気温だけで決まらないから。\n国の中の電力網や通信網、使う人とつながれる寒冷地はどこか。同じ物差しで国ごとに見ると、答えが変わります。"
    ],
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-p10.png",
-   "reply_image_urls": null
+   "reply_image_urls": null,
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/ando-q01.json",
@@ -1578,7 +1726,9 @@
     "Q3 答えは①地下水。熊本市は水道水の100%が地下水です。\nビール工場との違いも書いています。\n\n詳しくはこのスレッドで\nhttps://www.threads.com/@ando.geo/post/DfR8MJZkTqc"
    ],
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-q01.png",
-   "reply_image_urls": null
+   "reply_image_urls": null,
+   "hook_rationale": null,
+   "expected_reaction": null
   },
   {
    "id": "queue/ando-q02.json",
@@ -1594,7 +1744,9 @@
     "Q3 答えは②データ。電気がある場所に建てて、データを光ファイバーで送ります。\n\n詳しくはこのスレッドで\nhttps://www.threads.com/@ando.geo/post/DfVomj8DtAC"
    ],
    "image_url": "https://raw.githubusercontent.com/dmvipml-droid/threads-images/main/ando/202611/ando-q02.png",
-   "reply_image_urls": null
+   "reply_image_urls": null,
+   "hook_rationale": null,
+   "expected_reaction": null
   }
  ]
 }
