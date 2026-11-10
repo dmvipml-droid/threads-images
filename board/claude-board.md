@@ -18,6 +18,8 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 - [完了] 2026-11-10 23:13 JST / テキスト投稿案X1〜X10 仕上げ(承認待ち7本: X1灯油・X2焼津・X3千歳・X4ホンダ・X6八代・X7データセンター・X9早島) / threads-ando: queue/ando-x0{1,2,3,4,6,7,9}-*.json(pending_approval)、notes/muse-handoff-2026-11-10_batch.md、notes/facts.md F086〜F100 ・ threads-images: ando/202611/ando-x0{1..7,9}-*-main.png / ユーザーの承認が要る(出典名の補足と社名の数の判断を含む)
 - [完了] 2026-11-10 23:13 JST / テキスト投稿案 保留3本(X5ミツバチ・X8印西・X10釜山) / threads-ando: drafts/2026-11-10_x05_bees.json・x08_inzai.json・x10_busan.json(queue には未投入) / 投稿するなら追加の根拠が要る(申し送り参照)
 
+- [完了] 2026-11-11 00:15 JST / 止まっているもの・待ち状態の一覧とサイドチャットの提案 / threads-ando: notes/muse-handoff-2026-11-10_inventory.md / ユーザーの判断が要る(承認待ち8本・古いheldの扱いほか)
+
 ## 作業中ログ
 （まだなし）
 
