@@ -20,9 +20,11 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 - [完了] 2026-11-11 00:15 JST / 止まっているもの・待ち状態の一覧とサイドチャットの提案 / threads-ando: notes/muse-handoff-2026-11-10_inventory.md / ユーザーの判断が要る(承認待ち8本・古いheldの扱いほか)
 - [完了] 2026-11-11 00:25 JST / 週2回の発見回用プロンプト(収集Perplexity・分析NotebookLM) / threads-ando: prompts/neta-discovery.md、notes/muse-handoff-2026-11-11_neta-discovery.md / 軽い確認のみ(候補数と比率)
 - [完了] 2026-11-11 00:55 JST / 出典補完を受けた直し(X1灯油の数字・X9稼働の表現・X7主体・X10を下書きへ・X5の年) / threads-ando: notes/muse-handoff-2026-11-11_source-fixes.md ・ threads-images: ando/202611/ando-x0{1,7,9}-*-main.png 差し替え / ユーザーの判断が要る(X1のフックの軸、X10下書き)
+- [完了] 2026-11-11 01:10 JST / すず ask型3本・opinion型3本の書き直し(型C4・D1・A1) / threads-autopilot: queue/20261111-rw0{0..5}-*.json(pending_approval)、notes/muse-handoff-2026-11-11_ask-rewrite.md / ユーザーの承認が要る・単価は要追加調査
 
 ## 作業中ログ
 （まだなし）
 
 ## 確認待ち
 - 2026-11-10 / X1〜X10の出典名・URLが未受領(ファクトカードの出典欄が仮)。X1の2月の灯油代は札幌市の数字か。X3(2社)・X7(3社)の社名を減らすか。詳細は threads-ando の notes/muse-handoff-2026-11-10_batch.md
+- 2026-11-11 / すず書き直し6本の承認。rw04の表カード画像を付けるか。prompts/system.md に残っているask/opinionの配分・問いかけで締める指示を消すか。型B・単価の列は根拠がない(要追加調査)。詳細は threads-autopilot の notes/muse-handoff-2026-11-11_ask-rewrite.md
