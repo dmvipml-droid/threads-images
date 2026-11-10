@@ -19,6 +19,7 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 - [完了] 2026-11-10 23:13 JST / テキスト投稿案 保留3本(X5ミツバチ・X8印西・X10釜山) / threads-ando: drafts/2026-11-10_x05_bees.json・x08_inzai.json・x10_busan.json(queue には未投入) / 投稿するなら追加の根拠が要る(申し送り参照)
 - [完了] 2026-11-11 00:15 JST / 止まっているもの・待ち状態の一覧とサイドチャットの提案 / threads-ando: notes/muse-handoff-2026-11-10_inventory.md / ユーザーの判断が要る(承認待ち8本・古いheldの扱いほか)
 - [完了] 2026-11-11 00:25 JST / 週2回の発見回用プロンプト(収集Perplexity・分析NotebookLM) / threads-ando: prompts/neta-discovery.md、notes/muse-handoff-2026-11-11_neta-discovery.md / 軽い確認のみ(候補数と比率)
+- [完了] 2026-11-11 00:55 JST / 出典補完を受けた直し(X1灯油の数字・X9稼働の表現・X7主体・X10を下書きへ・X5の年) / threads-ando: notes/muse-handoff-2026-11-11_source-fixes.md ・ threads-images: ando/202611/ando-x0{1,7,9}-*-main.png 差し替え / ユーザーの判断が要る(X1のフックの軸、X10下書き)
 
 ## 作業中ログ
 （まだなし）
