@@ -25,6 +25,7 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 - [完了] 2026-11-12 00:50 JST / 新規下書き2件(神戸空港島US-2・明治の準チョコ化、画像なし) / threads-ando: notes/muse-handoff-2026-11-11_new-drafts.md、drafts/2026-11-12_us2_kobe.json・2026-11-12_meiji_junchoco.json / ユーザーの判断が要る(下書きのOK)
 - [完了] 2026-11-12 01:40 JST / ズワイガニ・コメ価格の改訂と画像4枚(approvedのまま) / threads-ando: notes/muse-handoff-2026-11-12_crab-rice-rev.md、queue/20261108-125018-00.json・-01.json ・ threads-images: ando/202611/ando-crab-{brandmap,section}.png・ando-rice-{price,stock}.png / ユーザーの最終確認を推奨
 - [完了] 2026-11-12 02:50 JST / 承認待ち投稿の個別改訂(KFC・X2・X3・X4・X6・X7・X9、X1は対象外) / threads-ando: notes/muse-handoff-2026-11-12_pending-rev.md ・ threads-images: ando/202611/ando-x04-honda-map.png・ando-x07-power-diagram.png・ando-x09-hayashima-main.png / ユーザーの承認と、X6・X4の要追加調査が要る
+- [完了] 2026-11-12 03:20 JST / X1 灯油を製油所の逆説で組み直し(承認待ちのまま) / threads-ando: notes/muse-handoff-2026-11-12_x1-rebuild.md ・ threads-images: ando/202611/ando-x01-touyu-main.png / ユーザーの承認が要る
 
 ## 作業中ログ
 （まだなし）
