@@ -22,6 +22,7 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 - [完了] 2026-11-11 00:25 JST / 週2回の発見回用プロンプト(収集Perplexity・分析NotebookLM) / threads-ando: prompts/neta-discovery.md、notes/muse-handoff-2026-11-11_neta-discovery.md / 軽い確認のみ(候補数と比率)
 - [完了] 2026-11-11 00:55 JST / 出典補完を受けた直し(X1灯油の数字・X9稼働の表現・X7主体・X10を下書きへ・X5の年) / threads-ando: notes/muse-handoff-2026-11-11_source-fixes.md ・ threads-images: ando/202611/ando-x0{1,7,9}-*-main.png 差し替え / ユーザーの判断が要る(X1のフックの軸、X10下書き)
 - [完了] 2026-11-11 01:10 JST / すず ask型3本・opinion型3本の書き直し(型C4・D1・A1) / threads-autopilot: queue/20261111-rw0{0..5}-*.json(pending_approval)、notes/muse-handoff-2026-11-11_ask-rewrite.md / ユーザーの承認が要る・単価は要追加調査
+- [完了] 2026-11-12 00:50 JST / 新規下書き2件(神戸空港島US-2・明治の準チョコ化、画像なし) / threads-ando: notes/muse-handoff-2026-11-11_new-drafts.md、drafts/2026-11-12_us2_kobe.json・2026-11-12_meiji_junchoco.json / ユーザーの判断が要る(下書きのOK)
 
 ## 作業中ログ
 （まだなし）
