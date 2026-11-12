@@ -35,6 +35,7 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 
 - [完了] 2026-11-12 23:00 JST / すず 新規ドラフト12本(型B4・A3・D2・C3)＋system.mdのask/opinion掃除 / threads-autopilot: queue/20261112-nd00〜nd11.json(pending_approval)、notes/muse-handoff-2026-11-12_new-drafts.md / ユーザーの承認が要る(nd07・nd08は表カード画像が要る)
 - [完了] 2026-11-13 00:40 JST / 収益化プロジェクト全量棚卸し(12件、台帳表の転記、リサーチ2プロンプト) / threads-ando: notes/muse-handoff-2026-11-11_revenue-projects.md / ユーザーの判断が要る
+- [完了] 2026-11-12 JST / LINEスタンプ第2弾 キャラ設計5案(A〜D+自由案E)とサンプル画像 / threads-ando: notes/muse-handoff-2026-11-12_stamp-wave2-design.md ・ revenue-hub: stickers/wave2/ / ユーザーの選択が要る
 
 ## 作業中ログ
 （まだなし）
@@ -44,3 +45,4 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 - 2026-11-11 / すず書き直し6本の承認。rw04の表カード画像を付けるか。prompts/system.md に残っているask/opinionの配分・問いかけで締める指示を消すか。型B・単価の列は根拠がない(要追加調査)。詳細は threads-autopilot の notes/muse-handoff-2026-11-11_ask-rewrite.md
 - 2026-11-12 / すず新規12本の承認。型B・A・Dで商品名を本文に出してよいか(system.md必須要件7と衝突)。ナチュリエ乳液の正式名(ゲート禁止語)。F026・F029が3回使用。詳細は threads-autopilot の notes/muse-handoff-2026-11-12_new-drafts.md
 - 2026-11-13 / 収益化棚卸し：Etsy見送り確定か、Apify停止確定か、UpworkのConnects購入可否、コンペでAI記載なし募集を含めるか、LINE v1「まるくん」は没か・保留記述の更新可否。詳細は threads-ando の notes/muse-handoff-2026-11-11_revenue-projects.md
+- LINEスタンプ第2弾：5案から選択待ち(おすすめA ねむらし、次点E しとぴ) → threads-ando: notes/muse-handoff-2026-11-12_stamp-wave2-design.md
