@@ -32,9 +32,12 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 - [完了] 2026-11-12 23:30 JST / 承認待ち8本の清書(可視化3項目を最新化)とX6画像の差し替え / threads-ando: notes/muse-handoff-2026-11-12_seisyo.md ・ threads-images: ando/202611/ando-x06-yatsushiro-main.png / ユーザーの承認が要る(8本)
 - [完了] 2026-11-13 00:10 JST / 画像ルールに反する既存画像4枚の差し替え(ズワイガニ地図・X4地図・X9地図・コメ備蓄、同名で上書き・status変更なし) / threads-ando: notes/muse-handoff-2026-11-12_image-fix.md ・ threads-images: ando/202611/ / 判断不要
 
+- [完了] 2026-11-12 23:00 JST / すず 新規ドラフト12本(型B4・A3・D2・C3)＋system.mdのask/opinion掃除 / threads-autopilot: queue/20261112-nd00〜nd11.json(pending_approval)、notes/muse-handoff-2026-11-12_new-drafts.md / ユーザーの承認が要る(nd07・nd08は表カード画像が要る)
+
 ## 作業中ログ
 （まだなし）
 
 ## 確認待ち
 - 2026-11-10 / X1〜X10の出典名・URLが未受領(ファクトカードの出典欄が仮)。X1の2月の灯油代は札幌市の数字か。X3(2社)・X7(3社)の社名を減らすか。詳細は threads-ando の notes/muse-handoff-2026-11-10_batch.md
 - 2026-11-11 / すず書き直し6本の承認。rw04の表カード画像を付けるか。prompts/system.md に残っているask/opinionの配分・問いかけで締める指示を消すか。型B・単価の列は根拠がない(要追加調査)。詳細は threads-autopilot の notes/muse-handoff-2026-11-11_ask-rewrite.md
+- 2026-11-12 / すず新規12本の承認。型B・A・Dで商品名を本文に出してよいか(system.md必須要件7と衝突)。ナチュリエ乳液の正式名(ゲート禁止語)。F026・F029が3回使用。詳細は threads-autopilot の notes/muse-handoff-2026-11-12_new-drafts.md
