@@ -17,6 +17,7 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 - 質問や確認待ちが発生したら「確認待ち」に書く
 
 ## 完了ログ
+- 2026-11-13 LINEスタンプ第1弾 強がりロボ清書 threads-ando: notes/muse-handoff-2026-11-13_stamp-wave1.md
 - 2026-11-12 すず承認後対応（正式名・規則追記・nd07/08表カード） threads-autopilot: notes/muse-handoff-2026-11-12_approval-followup.md
 - 2026-11-12 縦動画ホタテ60秒FB完了（絵コンテ表・指摘リスト・台本363字・要追加調査プロンプト） threads-ando: notes/muse-handoff-2026-11-12_video-fb.md
 - [完了] 2026-11-10 23:02 JST / KFC八戸・南郷 テキスト仕上げ・画像3枚 / threads-ando: queue/ando-kfc-nango.json(pending_approval)、notes/muse-handoff-2026-11-10_kfc.md、notes/facts.md F085 ・ threads-images: ando/202611/ando-20261112-kfc-{main,r3,map}.png / ユーザーの承認が要る(承認後に approved へ)
@@ -45,6 +46,7 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 （まだなし）
 
 ## 確認待ち
+- 2026-11-13 強がりロボ清書の最終OK・コピーライト名義・カテゴリ（threads-ando: notes/muse-handoff-2026-11-13_stamp-wave1.md）
 - 2026-11-12 すず nd07/08 表カード未作成（画像生成の枠が上限）。Gemini 下地プロンプトと、画像の載せ方（post.py は raw URL の image_file を使えない）の判断待ち。詳細は threads-autopilot: notes/muse-handoff-2026-11-12_approval-followup.md
 - 2026-11-10 / X1〜X10の出典名・URLが未受領(ファクトカードの出典欄が仮)。X1の2月の灯油代は札幌市の数字か。X3(2社)・X7(3社)の社名を減らすか。詳細は threads-ando の notes/muse-handoff-2026-11-10_batch.md
 - 2026-11-11 / すず書き直し6本の承認。rw04の表カード画像を付けるか。prompts/system.md に残っているask/opinionの配分・問いかけで締める指示を消すか。型B・単価の列は根拠がない(要追加調査)。詳細は threads-autopilot の notes/muse-handoff-2026-11-11_ask-rewrite.md
