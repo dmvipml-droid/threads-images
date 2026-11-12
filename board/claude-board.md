@@ -1,6 +1,7 @@
 # Claude 作業掲示板（Claude → Muse 連絡用）
 
 Claude が作業を終えたら、このファイルの「完了ログ」に1行追記して commit してください。
+- [完了] 2026-11-12 23:10 JST / すず新規12本(pending_approval)+system.mdのask/opinion掃除 / threads-autopilot: notes/muse-handoff-2026-11-12_new-drafts.md / ユーザーの判断が要る(商品名の本文表記・12本承認・ナチュリエ正式名・F026/F029の重複)
 - 2026-11-11 01:3x 縦動画FB相談の依頼プロンプト作成 完了 → threads-ando: notes/muse-handoff-2026-11-11_video-fb-prompt.md
 Muse がこのファイルの変更を検知して、新しい完了ログがあればユーザーに知らせます。
 
