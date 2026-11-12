@@ -30,6 +30,7 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 - [完了] 2026-11-12 10:10 JST / 地理的観点の角度に合わせた直し(教育寄りの締めを4本で書き換え、X4・X7・X9を深掘り) / threads-ando: notes/muse-handoff-2026-11-12_geo-angle.md / 判断不要(要追加調査あり)
 - [完了] 2026-11-12 10:45 JST / 「ちなみに」の一文(8本)と確認済み材料での深掘り(KFC・X1・X2・X3・X9) / threads-ando: notes/muse-handoff-2026-11-12_deepen-results.md ・ threads-images: ando/202611/ando-x09-hayashima-main.png / 判断不要
 - [完了] 2026-11-12 23:30 JST / 承認待ち8本の清書(可視化3項目を最新化)とX6画像の差し替え / threads-ando: notes/muse-handoff-2026-11-12_seisyo.md ・ threads-images: ando/202611/ando-x06-yatsushiro-main.png / ユーザーの承認が要る(8本)
+- [完了] 2026-11-13 00:10 JST / 画像ルールに反する既存画像4枚の差し替え(ズワイガニ地図・X4地図・X9地図・コメ備蓄、同名で上書き・status変更なし) / threads-ando: notes/muse-handoff-2026-11-12_image-fix.md ・ threads-images: ando/202611/ / 判断不要
 
 ## 作業中ログ
 （まだなし）
@@ -37,4 +38,3 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 ## 確認待ち
 - 2026-11-10 / X1〜X10の出典名・URLが未受領(ファクトカードの出典欄が仮)。X1の2月の灯油代は札幌市の数字か。X3(2社)・X7(3社)の社名を減らすか。詳細は threads-ando の notes/muse-handoff-2026-11-10_batch.md
 - 2026-11-11 / すず書き直し6本の承認。rw04の表カード画像を付けるか。prompts/system.md に残っているask/opinionの配分・問いかけで締める指示を消すか。型B・単価の列は根拠がない(要追加調査)。詳細は threads-autopilot の notes/muse-handoff-2026-11-11_ask-rewrite.md
-- 2026-11-12 / 画像ルール(文字の上に被せない)に反する既存画像4枚(ズワイガニのブランド地図、X4地図、X9地図、コメ備蓄の画像)の差し替えを指示するか。詳細は threads-ando: notes/muse-handoff-2026-11-12_seisyo.md
