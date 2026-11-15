@@ -9,73 +9,107 @@
   header { position: sticky; top:0; background:#fff; border-bottom:1px solid #ddd; padding:12px 16px; z-index:10; }
   header h1 { font-size:17px; margin:0 0 4px; }
   header .meta { font-size:12px; color:#666; }
-  nav { display:flex; gap:8px; flex-wrap:wrap; margin-top:10px; }
-  nav button { border:1px solid #ccc; background:#fff; border-radius:999px; padding:6px 12px; font-size:13px; cursor:pointer; }
-  nav button.active { background:#111; color:#fff; border-color:#111; }
-  main { max-width:680px; margin:0 auto; padding:16px 12px 48px; }
+  .flow { display:flex; align-items:center; gap:6px; flex-wrap:wrap; margin-top:10px; }
+  .flow .step { border:1px solid #ccc; background:#fff; border-radius:999px; padding:6px 12px; font-size:13px; cursor:pointer; }
+  .flow .step b { color:#2f6fed; }
+  .flow .step.held { border-style:dashed; color:#777; }
+  .flow .arrow { color:#999; font-size:12px; }
+  main { max-width:680px; margin:0 auto; padding:8px 12px 48px; }
+  .lane { margin-top:26px; }
+  .lane-head { display:flex; align-items:baseline; gap:10px; border-bottom:2px solid #111; padding-bottom:6px; }
+  .lane-head .num { background:#111; color:#fff; border-radius:50%; width:26px; height:26px; line-height:26px; text-align:center; font-size:14px; font-weight:bold; flex:none; align-self:center; }
+  .lane-head .num.held { background:#999; }
+  .lane-head h2 { font-size:17px; margin:0; }
+  .lane-head .count { font-size:13px; color:#666; }
+  .lane-next { font-size:12.5px; color:#555; margin:8px 0 12px; }
+  .lane-next b { color:#2f6fed; }
   .card { background:#fff; border:1px solid #e2e2e6; border-radius:14px; padding:14px 16px; margin-bottom:14px; }
-  .badges { display:flex; gap:6px; flex-wrap:wrap; margin-bottom:8px; }
+  .badges { display:flex; gap:6px; flex-wrap:wrap; margin-bottom:8px; align-items:center; }
   .badge { font-size:11px; padding:2px 8px; border-radius:999px; background:#eef; color:#225; }
   .badge.src { background:#f0f0f0; color:#555; }
+  .badge.neta { background:#e6f4ea; color:#137333; }
+  .badge.score { background:#111; color:#fff; font-size:12.5px; font-weight:bold; padding:3px 10px; }
+  .score-reason { font-size:12px; color:#666; margin-bottom:8px; }
+  .neta-title { font-size:15.5px; font-weight:bold; margin-bottom:6px; }
+  .neta-detail { font-size:13.5px; line-height:1.7; color:#333; white-space:pre-wrap; margin-top:8px; }
   .body-box { border:2px solid #2f6fed; border-radius:10px; padding:10px 12px; white-space:pre-wrap; line-height:1.7; font-size:15px; }
   .reply { border-left:3px solid #ccc; margin-top:10px; padding:6px 10px; white-space:pre-wrap; line-height:1.7; font-size:14px; color:#222; }
   .reply .rlabel { font-size:11px; color:#888; display:block; margin-bottom:2px; }
   img.post { max-width:100%; border-radius:10px; margin-top:10px; display:block; }
   .note-box { background:#fff8e6; border:1px solid #f0d48a; border-radius:10px; padding:10px 12px; margin-top:10px; white-space:pre-wrap; line-height:1.7; font-size:13.5px; }
   .note-box .nlabel { font-size:11px; color:#a07d10; display:block; margin-bottom:2px; font-weight:bold; }
-  .empty { color:#888; text-align:center; padding:32px 0; }
+  .empty { color:#888; text-align:center; padding:24px 0; }
 </style>
 </head>
 <body>
 <header>
   <h1>安藤 投稿プレビュー</h1>
   <div class="meta" id="meta">読み込み中…</div>
-  <nav id="tabs"></nav>
+  <div class="flow" id="flow"></div>
 </header>
 <main id="list"></main>
 <script>
-const GROUPS = [
-  ["all", "すべて"],
-  ["pending", "承認待ち"],
-  ["approved", "承認済み"],
-  ["draft", "下書き"],
-  ["held", "保留・ボツ"],
-  ["posted", "投稿済み"],
+const LANES = [
+  ["draft",   "1", "下書き",   "ネタと下書きの置き場です。スコアの高い順に並んでいます。良いものは本文を仕上げて <b>②承認待ち</b> へ進みます。"],
+  ["pending", "2", "承認待ち", "あなたのOK待ちです。OKが出たら <b>③承認済み</b> へ進みます。"],
+  ["approved","3", "承認済み", "投稿ボットの待ち行列です。枠の時間に自動で投稿され、<b>④投稿済み</b> へ進みます。"],
+  ["posted",  "4", "投稿済み", "Threadsに投稿が完了したものです。"],
+  ["held",    "×", "保留・ボツ", "流れから外れたものです（保留中・不採用）。"],
 ];
-let DATA = null, current = "pending";
+let DATA = null;
 function esc(s){ return (s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;"); }
+function cardHTML(i){
+  const replies = (i.reply_texts||[]).map((r,idx) => {
+    const rimg = (i.reply_image_urls||[])[idx];
+    return '<div class="reply"><span class="rlabel">返信'+(idx+1)+'</span>'+esc(r)+(rimg ? '<img class="post" src="'+rimg+'">' : '')+'</div>';
+  }).join("");
+  const scoreBadge = (i.score!=null) ? '<span class="badge score">質 '+i.score+'点</span>' : '';
+  const scoreReason = i.score_reason ? '<div class="score-reason">採点メモ: '+esc(i.score_reason)+'</div>' : '';
+  if(i.kind==="neta"){
+    return '<div class="card">'
+      + '<div class="badges">'+scoreBadge+'<span class="badge neta">ネタ（未下書き）</span><span class="badge src">'+esc(i.source)+'</span></div>'
+      + scoreReason
+      + '<div class="neta-title">'+esc(i.title||"")+'</div>'
+      + (i.text ? '<div class="body-box">'+esc(i.text)+'</div>' : '')
+      + (i.detail ? '<div class="neta-detail">'+esc(i.detail)+'</div>' : '')
+      + '</div>';
+  }
+  return '<div class="card">'
+    + '<div class="badges">'+scoreBadge+'<span class="badge">'+esc(i.status||i.group)+'</span>'
+    + (i.topic_tag ? '<span class="badge">'+esc(i.topic_tag)+'</span>' : '')
+    + '<span class="badge src">'+esc(i.id)+'</span></div>'
+    + scoreReason
+    + '<div class="body-box">'+esc(i.text)+'</div>'
+    + (i.image_url ? '<img class="post" src="'+i.image_url+'">' : '')
+    + replies
+    + (i.hook_rationale ? '<div class="note-box"><span class="nlabel">フックが成り立つ理由</span>'+esc(i.hook_rationale)+'</div>' : '')
+    + (i.expected_reaction ? '<div class="note-box"><span class="nlabel">想定する視聴者の反応</span>'+esc(i.expected_reaction)+'</div>' : '')
+    + (i.anticipated_pushback ? '<div class="note-box"><span class="nlabel">想定されるツッコミどころ</span>'+esc(i.anticipated_pushback)+'</div>' : '')
+    + '</div>';
+}
 function render(){
   const list = document.getElementById("list");
-  const items = DATA.items.filter(i => current==="all" || i.group===current);
-  if(!items.length){ list.innerHTML = '<div class="empty">この区分にはまだ何もありません</div>'; return; }
-  list.innerHTML = items.map(i => {
-    const replies = (i.reply_texts||[]).map((r,idx) => {
-      const rimg = (i.reply_image_urls||[])[idx];
-      return '<div class="reply"><span class="rlabel">返信'+(idx+1)+'</span>'+esc(r)+(rimg ? '<img class="post" src="'+rimg+'">' : '')+'</div>';
-    }).join("");
-    return '<div class="card">'
-      + '<div class="badges"><span class="badge">'+esc(i.status||i.group)+'</span>'
-      + (i.topic_tag ? '<span class="badge">'+esc(i.topic_tag)+'</span>' : '')
-      + '<span class="badge src">'+esc(i.id)+'</span></div>'
-      + '<div class="body-box">'+esc(i.text)+'</div>'
-      + (i.image_url ? '<img class="post" src="'+i.image_url+'">' : '')
-      + replies
-      + (i.hook_rationale ? '<div class="note-box"><span class="nlabel">フックが成り立つ理由</span>'+esc(i.hook_rationale)+'</div>' : '')
-      + (i.expected_reaction ? '<div class="note-box"><span class="nlabel">想定する視聴者の反応</span>'+esc(i.expected_reaction)+'</div>' : '')
-      + (i.anticipated_pushback ? '<div class="note-box"><span class="nlabel">想定されるツッコミどころ</span>'+esc(i.anticipated_pushback)+'</div>' : '')
-      + '</div>';
+  list.innerHTML = LANES.map(([g,num,label,next]) => {
+    const items = DATA.items.filter(i => i.group===g);
+    const cards = items.length ? items.map(cardHTML).join("") : '<div class="empty">このフェーズにはまだ何もありません</div>';
+    return '<section class="lane" id="lane-'+g+'">'
+      + '<div class="lane-head"><span class="num'+(g==="held"?" held":"")+'">'+num+'</span><h2>'+label+'</h2><span class="count">'+items.length+'件</span></div>'
+      + '<div class="lane-next">'+next+'</div>'
+      + cards + '</section>';
   }).join("");
-  document.querySelectorAll("#tabs button").forEach(b => b.classList.toggle("active", b.dataset.g===current));
+  const flow = document.getElementById("flow");
+  flow.innerHTML = LANES.map(([g,num,label],idx) => {
+    const n = DATA.counts[g]||0;
+    const chip = '<button class="step'+(g==="held"?" held":"")+'" data-g="'+g+'">'+(g==="held"?"":('<b>'+num+'</b> '))+label+' ('+n+')</button>';
+    return (idx===0 ? '' : '<span class="arrow">'+(g==="held"?'／':'→')+'</span>') + chip;
+  }).join("");
+  flow.querySelectorAll("button").forEach(b => b.addEventListener("click", () => {
+    document.getElementById("lane-"+b.dataset.g).scrollIntoView({behavior:"smooth"});
+  }));
 }
 fetch("preview-data.json").then(r => r.json()).then(d => {
   DATA = d;
-  document.getElementById("meta").textContent = "最終更新: " + d.generated_at + " ／ 青枠が本文、その下が返信の順番です";
-  const tabs = document.getElementById("tabs");
-  tabs.innerHTML = GROUPS.map(([g,label]) => {
-    const n = g==="all" ? d.items.length : (d.counts[g]||0);
-    return '<button data-g="'+g+'">'+label+' ('+n+')</button>';
-  }).join("");
-  tabs.querySelectorAll("button").forEach(b => b.addEventListener("click", () => { current = b.dataset.g; render(); }));
+  document.getElementById("meta").textContent = "最終更新: " + d.generated_at + " ／ フェーズは ①下書き → ②承認待ち → ③承認済み → ④投稿済み の順に進みます。青枠が本文、その下が返信の順番です";
   render();
 }).catch(e => { document.getElementById("meta").textContent = "データを読み込めませんでした"; });
 </script>
