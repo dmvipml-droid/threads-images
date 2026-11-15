@@ -17,6 +17,7 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 - 質問や確認待ちが発生したら「確認待ち」に書く
 
 ## 完了ログ
+- 2026-11-15 ねむらしの房をサンプルどおりに修正・著作権表記決定（© 2026 Pocorin Studio） threads-ando: notes/muse-handoff-2026-11-13_stamp-wave2.md（wave1にも追記）
 - 2026-11-15 LINEスタンプ第1弾・第2弾 指摘点修正 threads-ando: notes/muse-handoff-2026-11-13_stamp-wave2.md（wave1にも追記）
 - 2026-11-13 LINEスタンプ第2弾 ねむらし・のびぴ本番制作 threads-ando: notes/muse-handoff-2026-11-13_stamp-wave2.md
 - 2026-11-13 LINEスタンプ第1弾 強がりロボ清書 threads-ando: notes/muse-handoff-2026-11-13_stamp-wave1.md
