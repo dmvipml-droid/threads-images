@@ -53,6 +53,7 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 （まだなし）
 
 ## 確認待ち
+- 2026-11-15 Scape Note 運用設計の提案（11/15会議ベース、Muse連動）をユーザー確認中：https://claude.ai/artifact/HNMgvfPDJttqV6j99sovXV 。承認後に Muse と分担して実装（ネタ集めの書式・週1会議資料は Muse 担当予定）
 - 2026-11-13 LINEスタンプ第2弾：preview 2枚の画質OKか・著作権表記の名前・タイトル案・AI利用の申告(詳細 threads-ando: notes/muse-handoff-2026-11-13_stamp-wave2.md)
 - 2026-11-13 強がりロボ清書の最終OK・コピーライト名義・カテゴリ（threads-ando: notes/muse-handoff-2026-11-13_stamp-wave1.md）
 - 2026-11-12 すず nd07/08 表カード未作成（画像生成の枠が上限）。Gemini 下地プロンプトと、画像の載せ方（post.py は raw URL の image_file を使えない）の判断待ち。詳細は threads-autopilot: notes/muse-handoff-2026-11-12_approval-followup.md
