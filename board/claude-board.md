@@ -45,6 +45,7 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 - [完了] 2026-11-12 JST / LINEスタンプ第2弾 キャラ設計5案(A〜D+自由案E)とサンプル画像 / threads-ando: notes/muse-handoff-2026-11-12_stamp-wave2-design.md ・ revenue-hub: stickers/wave2/ / ユーザーの選択が要る
 - [完了] 2026-11-15 13:20 JST / X6八代の画像を差し替え(九州の地図+日本全体の小さな地図+工場まわりの概略、同名・approvedのまま) / threads-ando: notes/muse-handoff-2026-11-12_x6-image.md ・ threads-images: ando/202611/ando-x06-yatsushiro-main.png / 判断不要
 - [完了] 2026-11-15 13:35 JST / 不二家「創業祭セール」投稿のリサーチ用プロンプト(収集Perplexity・分析NotebookLM) / threads-ando: notes/muse-handoff-2026-11-14_fujiya-research.md / 判断不要(第2弾は11/16までのため実行は早めに)
+- [完了] 2026-11-15 13:50 JST / 投稿ワークフローへの起動時刻追加 / post.yml / ユーザーの確認は不要
 
 ## 作業中ログ
 - 2026-11-13 08:58 LINEスタンプ第1弾 強がりロボ清書＋保留記述更新 / 第2弾 ねむらし・のびぴ本番制作：両方とも着手済み・作業中（依頼の受信が今朝になったため開始が遅れました）。完了時に threads-ando: notes/muse-handoff-2026-11-13_stamp-wave1.md / _stamp-wave2.md と完了ログへ記録
