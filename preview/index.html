@@ -5,10 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>安藤 投稿プレビュー</title>
 <style>
-  body { font-family: -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif; background:#f5f5f7; margin:0; color:#111; }
+  body { font-family: -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif; background:#f5f5f7; margin:0; color:#111; padding-bottom:76px; }
   header { position: sticky; top:0; background:#fff; border-bottom:1px solid #ddd; padding:12px 16px; z-index:10; }
   header h1 { font-size:17px; margin:0 0 4px; }
-  header .meta { font-size:12px; color:#666; }
+  header .meta { font-size:12px; color:#666; line-height:1.6; }
   .flow { display:flex; align-items:center; gap:6px; flex-wrap:wrap; margin-top:10px; }
   .flow .step { border:1px solid #ccc; background:#fff; border-radius:999px; padding:6px 12px; font-size:13px; cursor:pointer; }
   .flow .step b { color:#2f6fed; }
@@ -24,11 +24,13 @@
   .lane-next { font-size:12.5px; color:#555; margin:8px 0 12px; }
   .lane-next b { color:#2f6fed; }
   .card { background:#fff; border:1px solid #e2e2e6; border-radius:14px; padding:14px 16px; margin-bottom:14px; }
+  .card.moved { border-color:#f0d48a; background:#fffdf4; }
   .badges { display:flex; gap:6px; flex-wrap:wrap; margin-bottom:8px; align-items:center; }
   .badge { font-size:11px; padding:2px 8px; border-radius:999px; background:#eef; color:#225; }
   .badge.src { background:#f0f0f0; color:#555; }
   .badge.neta { background:#e6f4ea; color:#137333; }
   .badge.score { background:#111; color:#fff; font-size:12.5px; font-weight:bold; padding:3px 10px; }
+  .badge.moved { background:#f7e08b; color:#6b5310; }
   .score-reason { font-size:12px; color:#666; margin-bottom:8px; }
   .neta-title { font-size:15.5px; font-weight:bold; margin-bottom:6px; }
   .neta-detail { font-size:13.5px; line-height:1.7; color:#333; white-space:pre-wrap; margin-top:8px; }
@@ -39,6 +41,17 @@
   .note-box { background:#fff8e6; border:1px solid #f0d48a; border-radius:10px; padding:10px 12px; margin-top:10px; white-space:pre-wrap; line-height:1.7; font-size:13.5px; }
   .note-box .nlabel { font-size:11px; color:#a07d10; display:block; margin-bottom:2px; font-weight:bold; }
   .empty { color:#888; text-align:center; padding:24px 0; }
+  .moves { display:flex; gap:6px; flex-wrap:wrap; margin-top:12px; border-top:1px dashed #ddd; padding-top:10px; align-items:center; }
+  .moves .mlabel { font-size:11.5px; color:#888; margin-right:2px; }
+  .moves button { border:1px solid #bbb; background:#fff; border-radius:999px; padding:5px 11px; font-size:12.5px; cursor:pointer; }
+  .moves button:hover { border-color:#2f6fed; color:#2f6fed; }
+  .moves button.undo { border-color:#d8b93c; background:#fff8e6; color:#6b5310; }
+  #changebar { position:fixed; left:0; right:0; bottom:0; background:#111; color:#fff; padding:10px 16px; display:none; z-index:20; }
+  #changebar .row { max-width:680px; margin:0 auto; display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+  #changebar .txt { font-size:13.5px; font-weight:bold; }
+  #changebar button { border:1px solid #fff; background:transparent; color:#fff; border-radius:999px; padding:6px 14px; font-size:13px; cursor:pointer; }
+  #changebar button.primary { background:#fff; color:#111; font-weight:bold; }
+  #changebar .hint { font-size:11.5px; color:#bbb; width:100%; }
 </style>
 </head>
 <body>
@@ -48,6 +61,12 @@
   <div class="flow" id="flow"></div>
 </header>
 <main id="list"></main>
+<div id="changebar"><div class="row">
+  <span class="txt" id="changetxt"></span>
+  <button class="primary" id="copybtn">変更内容をコピー</button>
+  <button id="clearbtn">すべて取り消し</button>
+  <span class="hint">コピーした内容を Muse のチャットに貼ると、実際の queue / 下書きに反映されます。反映までは、このブラウザの中だけの表示変更です。</span>
+</div></div>
 <script>
 const LANES = [
   ["draft",   "1", "下書き",   "ネタと下書きの置き場です。スコアの高い順に並んでいます。良いものは本文を仕上げて <b>②承認待ち</b> へ進みます。"],
@@ -56,9 +75,39 @@ const LANES = [
   ["posted",  "4", "投稿済み", "Threadsに投稿が完了したものです。"],
   ["held",    "×", "保留・ボツ", "流れから外れたものです（保留中・不採用）。"],
 ];
+const GLABEL = {draft:"下書き", pending:"承認待ち", approved:"承認済み", posted:"投稿済み", held:"保留・ボツ"};
+const LSKEY = "preview-moves-v1";
 let DATA = null;
+let moves = {};
+try { moves = JSON.parse(localStorage.getItem(LSKEY) || "{}"); } catch(e) { moves = {}; }
 function esc(s){ return (s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;"); }
+function effGroup(i){ const m = moves[i.id]; return m ? m.to : i.group; }
+function saveMoves(){ localStorage.setItem(LSKEY, JSON.stringify(moves)); }
+function setMove(id, to, label){
+  const item = DATA.items.find(x => x.id===id);
+  if(!item) return;
+  if(to === item.group && !label){ delete moves[id]; }
+  else moves[id] = {from: item.group, to: to, label: label || GLABEL[to]};
+  saveMoves(); render();
+}
+function clearMoves(){ moves = {}; saveMoves(); render(); }
+function moveButtons(i){
+  const cur = effGroup(i);
+  const m = moves[i.id];
+  let btns = "";
+  ["draft","pending","approved","posted"].forEach(g => {
+    if(g !== cur) btns += '<button data-move="'+g+'">'+GLABEL[g]+'へ</button>';
+  });
+  if(cur !== "held"){
+    btns += '<button data-move="held" data-label="保留">保留にする</button>';
+    btns += '<button data-move="held" data-label="ボツ">ボツにする</button>';
+  }
+  if(m) btns += '<button class="undo" data-undo="1">移行を取り消す</button>';
+  return '<div class="moves"><span class="mlabel">フェーズ移行:</span>'+btns+'</div>';
+}
 function cardHTML(i){
+  const m = moves[i.id];
+  const movedBadge = m ? '<span class="badge moved">'+esc(GLABEL[m.from])+' → '+esc(m.label)+'（未反映）</span>' : '';
   const replies = (i.reply_texts||[]).map((r,idx) => {
     const rimg = (i.reply_image_urls||[])[idx];
     return '<div class="reply"><span class="rlabel">返信'+(idx+1)+'</span>'+esc(r)+(rimg ? '<img class="post" src="'+rimg+'">' : '')+'</div>';
@@ -66,17 +115,19 @@ function cardHTML(i){
   const scoreBadge = (i.score!=null) ? '<span class="badge score">質 '+i.score+'点</span>' : '';
   const scoreReason = i.score_reason ? '<div class="score-reason">採点メモ: '+esc(i.score_reason)+'</div>' : '';
   if(i.kind==="neta"){
-    return '<div class="card">'
-      + '<div class="badges">'+scoreBadge+'<span class="badge neta">ネタ（未下書き）</span><span class="badge src">'+esc(i.source)+'</span></div>'
+    return '<div class="card'+(m?' moved':'')+'" data-id="'+esc(i.id)+'">'
+      + '<div class="badges">'+scoreBadge+'<span class="badge neta">ネタ（未下書き）</span>'+movedBadge+'<span class="badge src">'+esc(i.source)+'</span></div>'
       + scoreReason
       + '<div class="neta-title">'+esc(i.title||"")+'</div>'
       + (i.text ? '<div class="body-box">'+esc(i.text)+'</div>' : '')
       + (i.detail ? '<div class="neta-detail">'+esc(i.detail)+'</div>' : '')
+      + moveButtons(i)
       + '</div>';
   }
-  return '<div class="card">'
+  return '<div class="card'+(m?' moved':'')+'" data-id="'+esc(i.id)+'">'
     + '<div class="badges">'+scoreBadge+'<span class="badge">'+esc(i.status||i.group)+'</span>'
     + (i.topic_tag ? '<span class="badge">'+esc(i.topic_tag)+'</span>' : '')
+    + movedBadge
     + '<span class="badge src">'+esc(i.id)+'</span></div>'
     + scoreReason
     + '<div class="body-box">'+esc(i.text)+'</div>'
@@ -85,31 +136,64 @@ function cardHTML(i){
     + (i.hook_rationale ? '<div class="note-box"><span class="nlabel">フックが成り立つ理由</span>'+esc(i.hook_rationale)+'</div>' : '')
     + (i.expected_reaction ? '<div class="note-box"><span class="nlabel">想定する視聴者の反応</span>'+esc(i.expected_reaction)+'</div>' : '')
     + (i.anticipated_pushback ? '<div class="note-box"><span class="nlabel">想定されるツッコミどころ</span>'+esc(i.anticipated_pushback)+'</div>' : '')
+    + moveButtons(i)
     + '</div>';
 }
 function render(){
   const list = document.getElementById("list");
   list.innerHTML = LANES.map(([g,num,label,next]) => {
-    const items = DATA.items.filter(i => i.group===g);
+    const items = DATA.items.filter(i => effGroup(i)===g);
     const cards = items.length ? items.map(cardHTML).join("") : '<div class="empty">このフェーズにはまだ何もありません</div>';
     return '<section class="lane" id="lane-'+g+'">'
       + '<div class="lane-head"><span class="num'+(g==="held"?" held":"")+'">'+num+'</span><h2>'+label+'</h2><span class="count">'+items.length+'件</span></div>'
       + '<div class="lane-next">'+next+'</div>'
       + cards + '</section>';
   }).join("");
+  const counts = {};
+  DATA.items.forEach(i => { const g = effGroup(i); counts[g] = (counts[g]||0)+1; });
   const flow = document.getElementById("flow");
   flow.innerHTML = LANES.map(([g,num,label],idx) => {
-    const n = DATA.counts[g]||0;
+    const n = counts[g]||0;
     const chip = '<button class="step'+(g==="held"?" held":"")+'" data-g="'+g+'">'+(g==="held"?"":('<b>'+num+'</b> '))+label+' ('+n+')</button>';
     return (idx===0 ? '' : '<span class="arrow">'+(g==="held"?'／':'→')+'</span>') + chip;
   }).join("");
   flow.querySelectorAll("button").forEach(b => b.addEventListener("click", () => {
     document.getElementById("lane-"+b.dataset.g).scrollIntoView({behavior:"smooth"});
   }));
+  list.querySelectorAll(".moves button").forEach(b => b.addEventListener("click", () => {
+    const card = b.closest(".card");
+    const id = card.dataset.id;
+    if(b.dataset.undo){ delete moves[id]; saveMoves(); render(); return; }
+    setMove(id, b.dataset.move, b.dataset.label || null);
+  }));
+  const n = Object.keys(moves).length;
+  const bar = document.getElementById("changebar");
+  bar.style.display = n ? "block" : "none";
+  if(n) document.getElementById("changetxt").textContent = "未送信のフェーズ変更が " + n + " 件あります";
 }
+document.getElementById("clearbtn").addEventListener("click", clearMoves);
+document.getElementById("copybtn").addEventListener("click", () => {
+  const lines = Object.entries(moves).map(([id,m]) => {
+    const item = DATA.items.find(x => x.id===id);
+    const title = item ? (item.title || (item.text||"").split("\n")[0].slice(0,40)) : "";
+    return "- " + id + "（" + title + "）：" + GLABEL[m.from] + " → " + m.label;
+  });
+  const text = "プレビューのフェーズ変更（" + lines.length + "件）\n" + lines.join("\n") + "\nこの内容で queue / drafts / ネタ帳に反映してください。";
+  navigator.clipboard.writeText(text).then(() => {
+    document.getElementById("copybtn").textContent = "コピーしました";
+    setTimeout(() => { document.getElementById("copybtn").textContent = "変更内容をコピー"; }, 2000);
+  });
+});
 fetch("preview-data.json").then(r => r.json()).then(d => {
   DATA = d;
-  document.getElementById("meta").textContent = "最終更新: " + d.generated_at + " ／ フェーズは ①下書き → ②承認待ち → ③承認済み → ④投稿済み の順に進みます。青枠が本文、その下が返信の順番です";
+  // すでにデータ側へ反映済みの移行（移行先＝現在のフェーズ）は掃除する
+  let changed = false;
+  Object.entries(moves).forEach(([id,m]) => {
+    const item = DATA.items.find(x => x.id===id);
+    if(!item || (item.group===m.to && m.to!=="held")) { delete moves[id]; changed = true; }
+  });
+  if(changed) saveMoves();
+  document.getElementById("meta").textContent = "最終更新: " + d.generated_at + " ／ フェーズは ①下書き → ②承認待ち → ③承認済み → ④投稿済み の順に進みます。各カードのボタンでフェーズを移せます（このブラウザ内に保存され、下のバーから Muse へ送ると実際に反映されます）。青枠が本文、その下が返信の順番です";
   render();
 }).catch(e => { document.getElementById("meta").textContent = "データを読み込めませんでした"; });
 </script>
