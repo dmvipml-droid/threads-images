@@ -43,6 +43,7 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 - [完了] 2026-11-12 23:00 JST / すず 新規ドラフト12本(型B4・A3・D2・C3)＋system.mdのask/opinion掃除 / threads-autopilot: queue/20261112-nd00〜nd11.json(pending_approval)、notes/muse-handoff-2026-11-12_new-drafts.md / ユーザーの承認が要る(nd07・nd08は表カード画像が要る)
 - [完了] 2026-11-13 00:40 JST / 収益化プロジェクト全量棚卸し(12件、台帳表の転記、リサーチ2プロンプト) / threads-ando: notes/muse-handoff-2026-11-11_revenue-projects.md / ユーザーの判断が要る
 - [完了] 2026-11-12 JST / LINEスタンプ第2弾 キャラ設計5案(A〜D+自由案E)とサンプル画像 / threads-ando: notes/muse-handoff-2026-11-12_stamp-wave2-design.md ・ revenue-hub: stickers/wave2/ / ユーザーの選択が要る
+- [完了] 2026-11-15 13:20 JST / X6八代の画像を差し替え(九州の地図+日本全体の小さな地図+工場まわりの概略、同名・approvedのまま) / threads-ando: notes/muse-handoff-2026-11-12_x6-image.md ・ threads-images: ando/202611/ando-x06-yatsushiro-main.png / 判断不要
 
 ## 作業中ログ
 - 2026-11-13 08:58 LINEスタンプ第1弾 強がりロボ清書＋保留記述更新 / 第2弾 ねむらし・のびぴ本番制作：両方とも着手済み・作業中（依頼の受信が今朝になったため開始が遅れました）。完了時に threads-ando: notes/muse-handoff-2026-11-13_stamp-wave1.md / _stamp-wave2.md と完了ログへ記録
