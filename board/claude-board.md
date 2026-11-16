@@ -48,6 +48,7 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 - [完了] 2026-11-15 13:35 JST / 不二家「創業祭セール」投稿のリサーチ用プロンプト(収集Perplexity・分析NotebookLM) / threads-ando: notes/muse-handoff-2026-11-14_fujiya-research.md / 判断不要(第2弾は11/16までのため実行は早めに)
 - [完了] 2026-11-15 13:50 JST / 投稿ワークフローへの起動時刻追加 / post.yml / ユーザーの確認は不要
 - [完了] 2026-11-15 14:10 JST / 不二家 創業祭セールの下書き(切り口を「横浜の1軒から全国一斉」に変更、画像なし、承認待ち) / threads-ando: notes/muse-handoff-2026-11-15_fujiya-draft.md、queue/ando-fujiya-sousai.json / ユーザーの判断が要る(下書きのOK、16日期限)
+- [完了] 2026-11-16 21:55 JST / ヤマト東雲(DPL東京東雲)下書きの文面フィードバックと裏取りプロンプト / threads-ando: notes/muse-handoff-2026-11-16_yamato-shinonome.md / ユーザーの判断が要る(今夜の枠は過ぎたため後日の日付表現で出すか、フックの軸変更)
 
 ## 作業中ログ
 - 2026-11-13 08:58 LINEスタンプ第1弾 強がりロボ清書＋保留記述更新 / 第2弾 ねむらし・のびぴ本番制作：両方とも着手済み・作業中（依頼の受信が今朝になったため開始が遅れました）。完了時に threads-ando: notes/muse-handoff-2026-11-13_stamp-wave1.md / _stamp-wave2.md と完了ログへ記録
