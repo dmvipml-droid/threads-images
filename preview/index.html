@@ -69,17 +69,24 @@
 </div></div>
 <script>
 const LANES = [
-  ["draft",   "1", "下書き",   "ネタと下書きの置き場です。スコアの高い順に並んでいます。良いものは本文を仕上げて <b>②承認待ち</b> へ進みます。"],
-  ["pending", "2", "承認待ち", "あなたのOK待ちです。OKが出たら <b>③承認済み</b> へ進みます。"],
-  ["approved","3", "承認済み", "投稿ボットの待ち行列です。枠の時間に自動で投稿され、<b>④投稿済み</b> へ進みます。"],
-  ["posted",  "4", "投稿済み", "Threadsに投稿が完了したものです。"],
+  ["news",    "1", "ニュース（収集段階）",   "Muse が収集したニュース・ネタの置き場です。スコアの高い順に並んでいます。良いものは下書き化して <b>②下書き（Muse作成）</b> へ進みます。"],
+  ["draft",   "2", "下書き（Muse作成）",   "Muse が作った下書きです。次は Claude へ送ってリサーチと修正を受け、<b>③Claudeリサーチ・修正済み</b> へ進みます。"],
+  ["claude",  "3", "Claudeリサーチ・修正済み", "Claude がリサーチの上で修正したものです。次はあなたのチェックへ進み、<b>④チェック中</b> に入ります。"],
+  ["checking","4", "チェック中", "あなたのチェック待ちです。OKが出たら <b>⑤承認済み</b> へ進みます。"],
+  ["approved","5", "承認済み", "投稿ボットの待ち行列です。枠の時間に自動で投稿され、<b>⑥投稿済み</b> へ進みます。"],
+  ["posted",  "6", "投稿済み", "Threadsに投稿が完了したものです。これで流れは完了です。"],
   ["held",    "×", "保留・ボツ", "流れから外れたものです（保留中・不採用）。"],
 ];
-const GLABEL = {draft:"下書き", pending:"承認待ち", approved:"承認済み", posted:"投稿済み", held:"保留・ボツ"};
+const GLABEL = {news:"ニュース（収集段階）", draft:"下書き（Muse作成）", claude:"Claudeリサーチ・修正済み", checking:"チェック中", approved:"承認済み", posted:"投稿済み", held:"保留・ボツ"};
 const LSKEY = "preview-moves-v1";
 let DATA = null;
 let moves = {};
 try { moves = JSON.parse(localStorage.getItem(LSKEY) || "{}"); } catch(e) { moves = {}; }
+// 互換処理: 旧フェーズ名 pending（承認待ち）は checking（チェック中）として扱う
+Object.values(moves).forEach(m => {
+  if(m.from === "pending") m.from = "checking";
+  if(m.to === "pending"){ m.to = "checking"; if(m.label === "承認待ち") m.label = "チェック中"; }
+});
 function esc(s){ return (s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;"); }
 function effGroup(i){ const m = moves[i.id]; return m ? m.to : i.group; }
 function saveMoves(){ localStorage.setItem(LSKEY, JSON.stringify(moves)); }
@@ -95,7 +102,7 @@ function moveButtons(i){
   const cur = effGroup(i);
   const m = moves[i.id];
   let btns = "";
-  ["draft","pending","approved","posted"].forEach(g => {
+  ["news","draft","claude","checking","approved","posted"].forEach(g => {
     if(g !== cur) btns += '<button data-move="'+g+'">'+GLABEL[g]+'へ</button>';
   });
   if(cur !== "held"){
@@ -193,7 +200,7 @@ fetch("preview-data.json").then(r => r.json()).then(d => {
     if(!item || (item.group===m.to && m.to!=="held")) { delete moves[id]; changed = true; }
   });
   if(changed) saveMoves();
-  document.getElementById("meta").textContent = "最終更新: " + d.generated_at + " ／ フェーズは ①下書き → ②承認待ち → ③承認済み → ④投稿済み の順に進みます。各カードのボタンでフェーズを移せます（このブラウザ内に保存され、下のバーから Muse へ送ると実際に反映されます）。青枠が本文、その下が返信の順番です";
+  document.getElementById("meta").textContent = "最終更新: " + d.generated_at + " ／ フェーズは ①ニュース（収集段階） → ②下書き（Muse作成） → ③Claudeリサーチ・修正済み → ④チェック中 → ⑤承認済み → ⑥投稿済み の順に進みます。各カードのボタンでフェーズを移せます（このブラウザ内に保存され、下のバーから Muse へ送ると実際に反映されます）。青枠が本文、その下が返信の順番です";
   render();
 }).catch(e => { document.getElementById("meta").textContent = "データを読み込めませんでした"; });
 </script>
