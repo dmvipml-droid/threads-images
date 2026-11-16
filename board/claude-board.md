@@ -51,6 +51,7 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 - [完了] 2026-11-16 21:55 JST / ヤマト東雲(DPL東京東雲)下書きの文面フィードバックと裏取りプロンプト / threads-ando: notes/muse-handoff-2026-11-16_yamato-shinonome.md / ユーザーの判断が要る(今夜の枠は過ぎたため後日の日付表現で出すか、フックの軸変更)
 - [完了] 2026-11-16 22:30 JST / 新規下書き4件(讃岐うどん・仙台牛タン・鳥羽ラッコ・大阪の地盤)の文面フィードバックと裏取りプロンプト / threads-ando: notes/muse-handoff-2026-11-16_drafts-feedback.md / ユーザーの判断が要る(ラッコのA案/B案ほか)
 - [完了] 2026-11-16 22:50 JST / リサーチの標準形と裏取りゲートをCLAUDE.mdに必須ルール化(threads-ando・threads-images・chiri-site) / threads-ando: notes/muse-handoff-2026-11-16_research-rule.md / 判断不要
+- [完了] 2026-11-16 23:20 JST / ヤマト東雲の清書(裏取り反映・新フック軸、画像なし、承認待ち) / threads-ando: notes/muse-handoff-2026-11-16_yamato-final.md、queue/ando-yamato-shinonome.json / ユーザーの判断が要る(フック軸の変更と下書きのOK)
 
 ## 作業中ログ
 - 2026-11-13 08:58 LINEスタンプ第1弾 強がりロボ清書＋保留記述更新 / 第2弾 ねむらし・のびぴ本番制作：両方とも着手済み・作業中（依頼の受信が今朝になったため開始が遅れました）。完了時に threads-ando: notes/muse-handoff-2026-11-13_stamp-wave1.md / _stamp-wave2.md と完了ログへ記録
