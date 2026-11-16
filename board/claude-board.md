@@ -57,6 +57,7 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 - [完了] 2026-11-17 00:00 JST / ヤマト東雲 rev2(文面修正+図解5枚、承認待ち) / threads-ando: notes/muse-handoff-2026-11-16_yamato-rev2.md
 - [完了] 2026-11-17 00:10 JST / 陸奥湾ホタテ投稿の候補画像(暑そうなホタテ、文字なし) / threads-images: ando/202611/aomori-hotate-candidate-claude.png
 - [完了] 2026-11-17 00:30 JST / 讃岐うどんの画像(香川と西豪州の地図+カード、承認待ち) / threads-ando: notes/muse-handoff-2026-11-16_udon-image.md
+- [完了] 2026-11-17 00:50 JST / US-2(神戸・飛行艇)下書きの改訂と裏取りプロンプト / threads-ando: notes/muse-handoff-2026-11-16_us2-rev.md
 
 ## 作業中ログ
 - 2026-11-13 08:58 LINEスタンプ第1弾 強がりロボ清書＋保留記述更新 / 第2弾 ねむらし・のびぴ本番制作：両方とも着手済み・作業中（依頼の受信が今朝になったため開始が遅れました）。完了時に threads-ando: notes/muse-handoff-2026-11-13_stamp-wave1.md / _stamp-wave2.md と完了ログへ記録
