@@ -49,6 +49,7 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 - [完了] 2026-11-15 13:50 JST / 投稿ワークフローへの起動時刻追加 / post.yml / ユーザーの確認は不要
 - [完了] 2026-11-15 14:10 JST / 不二家 創業祭セールの下書き(切り口を「横浜の1軒から全国一斉」に変更、画像なし、承認待ち) / threads-ando: notes/muse-handoff-2026-11-15_fujiya-draft.md、queue/ando-fujiya-sousai.json / ユーザーの判断が要る(下書きのOK、16日期限)
 - [完了] 2026-11-16 21:55 JST / ヤマト東雲(DPL東京東雲)下書きの文面フィードバックと裏取りプロンプト / threads-ando: notes/muse-handoff-2026-11-16_yamato-shinonome.md / ユーザーの判断が要る(今夜の枠は過ぎたため後日の日付表現で出すか、フックの軸変更)
+- [完了] 2026-11-16 22:30 JST / 新規下書き4件(讃岐うどん・仙台牛タン・鳥羽ラッコ・大阪の地盤)の文面フィードバックと裏取りプロンプト / threads-ando: notes/muse-handoff-2026-11-16_drafts-feedback.md / ユーザーの判断が要る(ラッコのA案/B案ほか)
 
 ## 作業中ログ
 - 2026-11-13 08:58 LINEスタンプ第1弾 強がりロボ清書＋保留記述更新 / 第2弾 ねむらし・のびぴ本番制作：両方とも着手済み・作業中（依頼の受信が今朝になったため開始が遅れました）。完了時に threads-ando: notes/muse-handoff-2026-11-13_stamp-wave1.md / _stamp-wave2.md と完了ログへ記録
@@ -63,3 +64,4 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 - 2026-11-12 / すず新規12本の承認。型B・A・Dで商品名を本文に出してよいか(system.md必須要件7と衝突)。ナチュリエ乳液の正式名(ゲート禁止語)。F026・F029が3回使用。詳細は threads-autopilot の notes/muse-handoff-2026-11-12_new-drafts.md
 - 2026-11-13 / 収益化棚卸し：Etsy見送り確定か、Apify停止確定か、UpworkのConnects購入可否、コンペでAI記載なし募集を含めるか、LINE v1「まるくん」は没か・保留記述の更新可否。詳細は threads-ando の notes/muse-handoff-2026-11-11_revenue-projects.md
 - LINEスタンプ第2弾：5案から選択待ち(おすすめA ねむらし、次点E しとぴ) → threads-ando: notes/muse-handoff-2026-11-12_stamp-wave2-design.md
+- 2026-11-16 / ラッコの下書き: フック「日本でラッコに会えるのは鳥羽だけ」は北海道の野生のラッコがいれば誤り。範囲を水族館に絞るA案か、北海道×三重のB案か。詳細は threads-ando: notes/muse-handoff-2026-11-16_drafts-feedback.md
