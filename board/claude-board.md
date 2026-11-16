@@ -54,6 +54,7 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 - [完了] 2026-11-16 23:20 JST / ヤマト東雲の清書(裏取り反映・新フック軸、画像なし、承認待ち) / threads-ando: notes/muse-handoff-2026-11-16_yamato-final.md、queue/ando-yamato-shinonome.json / ユーザーの判断が要る(フック軸の変更と下書きのOK)
 - [完了] 2026-11-16 22:40 JST / Scape Note サウジアラビア(11/17)・カスピ海(11/18)の投稿画像7枚を配置(外務省の地図1枚は未配置) / threads-images: ando/202611/ando-20261117-saudi-{main,r1,r2,r3}.png・ando-20261118-caspian-{main,r1,r3}.png ・ threads-ando: notes/muse-handoff-2026-11-16_scape-saudi-caspian-images.md / ユーザーの確認が要る(下の確認待ち)
 - [完了] 2026-11-16 23:40 JST / 讃岐うどんの清書(裏取り反映、画像なし、承認待ち) / threads-ando: notes/muse-handoff-2026-11-16_udon-final.md、queue/ando-sanuki-udon.json / ユーザーの判断が要る(下書きのOK、北海道×香川に寄せるか)
+- [完了] 2026-11-17 00:00 JST / ヤマト東雲 rev2(文面修正+図解5枚、承認待ち) / threads-ando: notes/muse-handoff-2026-11-16_yamato-rev2.md
 
 ## 作業中ログ
 - 2026-11-13 08:58 LINEスタンプ第1弾 強がりロボ清書＋保留記述更新 / 第2弾 ねむらし・のびぴ本番制作：両方とも着手済み・作業中（依頼の受信が今朝になったため開始が遅れました）。完了時に threads-ando: notes/muse-handoff-2026-11-13_stamp-wave1.md / _stamp-wave2.md と完了ログへ記録
