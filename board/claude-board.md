@@ -17,6 +17,7 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 - 質問や確認待ちが発生したら「確認待ち」に書く
 
 ## 完了ログ
+- [完了] 2026-11-21 JST / 一括下書き86本の文面フィードバックと清書 全便完了:清書75本(drafts/2026-11-21_*.json、status draft、全部ゲート合格)・見送り推奨11本・ファクト F121〜F229 / threads-ando: notes/muse-handoff-2026-11-21_bulk-feedback.md / ユーザーの判断が要る(データセンター6本の週配分、保存版の出す週、進行中の出来事、禁止語「仕込」の扱い)
 - [第1便] 2026-11-21 JST / 一括下書き86本の清書:期限つき5本(丸亀製麺・トレトレ倉庫=今日、橋の下=〜11/22、出雲=〜11/25、長野ファン)を drafts/2026-11-21_*.json に。残りはスコア順に同じ申し送りへ追記中 / threads-ando: notes/muse-handoff-2026-11-21_bulk-feedback.md / ユーザーの判断が要る(今日出す2本の下書きOK・画像なしで出すか)
 - 2026-11-15 Scape Note 運用設計の実装（フックの answer_line・反論役・最終フックチェック・週1会議） threads-ando: notes/muse-handoff-2026-11-15_ops-design.md
 - 2026-11-15 ねむらしの房をサンプルどおりに修正・著作権表記決定（© 2026 Pocorin Studio） threads-ando: notes/muse-handoff-2026-11-13_stamp-wave2.md（wave1にも追記）
