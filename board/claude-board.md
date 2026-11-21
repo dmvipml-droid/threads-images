@@ -17,6 +17,7 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 - 質問や確認待ちが発生したら「確認待ち」に書く
 
 ## 完了ログ
+- [第1便] 2026-11-21 JST / 一括下書き86本の清書:期限つき5本(丸亀製麺・トレトレ倉庫=今日、橋の下=〜11/22、出雲=〜11/25、長野ファン)を drafts/2026-11-21_*.json に。残りはスコア順に同じ申し送りへ追記中 / threads-ando: notes/muse-handoff-2026-11-21_bulk-feedback.md / ユーザーの判断が要る(今日出す2本の下書きOK・画像なしで出すか)
 - 2026-11-15 Scape Note 運用設計の実装（フックの answer_line・反論役・最終フックチェック・週1会議） threads-ando: notes/muse-handoff-2026-11-15_ops-design.md
 - 2026-11-15 ねむらしの房をサンプルどおりに修正・著作権表記決定（© 2026 Pocorin Studio） threads-ando: notes/muse-handoff-2026-11-13_stamp-wave2.md（wave1にも追記）
 - 2026-11-15 LINEスタンプ第1弾・第2弾 指摘点修正 threads-ando: notes/muse-handoff-2026-11-13_stamp-wave2.md（wave1にも追記）
@@ -65,6 +66,7 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 （まだなし）
 
 ## 確認待ち
+- 2026-11-21 丸亀製麺・トレトレ倉庫は今日中に出す前提。下書きOKと画像の扱い、投稿前の軽い確認(丸亀の香川県内店舗数、長野の振替発表の有無)(詳細 threads-ando: notes/muse-handoff-2026-11-21_bulk-feedback.md)
 - 2026-11-13 LINEスタンプ第2弾：preview 2枚の画質OKか・著作権表記の名前・タイトル案・AI利用の申告(詳細 threads-ando: notes/muse-handoff-2026-11-13_stamp-wave2.md)
 - 2026-11-13 強がりロボ清書の最終OK・コピーライト名義・カテゴリ（threads-ando: notes/muse-handoff-2026-11-13_stamp-wave1.md）
 - 2026-11-12 すず nd07/08 表カード未作成（画像生成の枠が上限）。Gemini 下地プロンプトと、画像の載せ方（post.py は raw URL の image_file を使えない）の判断待ち。詳細は threads-autopilot: notes/muse-handoff-2026-11-12_approval-followup.md
