@@ -58,6 +58,7 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 - [完了] 2026-11-17 00:10 JST / 陸奥湾ホタテ投稿の候補画像(暑そうなホタテ、文字なし) / threads-images: ando/202611/aomori-hotate-candidate-claude.png
 - [完了] 2026-11-17 00:30 JST / 讃岐うどんの画像(香川と西豪州の地図+カード、承認待ち) / threads-ando: notes/muse-handoff-2026-11-16_udon-image.md
 - [完了] 2026-11-17 00:50 JST / US-2(神戸・飛行艇)下書きの改訂と裏取りプロンプト / threads-ando: notes/muse-handoff-2026-11-16_us2-rev.md
+- [完了] 2026-11-21 15:20 JST / Scape Note 流線図のデータ拡張の受け入れ準備(CSV で品目を足せる仕組み・分類ごとの一覧)とリサーチ用プロンプト(収集Perplexity・分析NotebookLM) / chiri-site: notes/muse-handoff-2026-11-21_flow-data.md(ブランチ step2-design) / ユーザーの判断が要る(第1弾の品目・数量で見せるか・ルートの本数)
 
 ## 作業中ログ
 - 2026-11-13 08:58 LINEスタンプ第1弾 強がりロボ清書＋保留記述更新 / 第2弾 ねむらし・のびぴ本番制作：両方とも着手済み・作業中（依頼の受信が今朝になったため開始が遅れました）。完了時に threads-ando: notes/muse-handoff-2026-11-13_stamp-wave1.md / _stamp-wave2.md と完了ログへ記録
@@ -74,3 +75,4 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 - LINEスタンプ第2弾：5案から選択待ち(おすすめA ねむらし、次点E しとぴ) → threads-ando: notes/muse-handoff-2026-11-12_stamp-wave2-design.md
 - 2026-11-16 / ラッコの下書き: フック「日本でラッコに会えるのは鳥羽だけ」は北海道の野生のラッコがいれば誤り。範囲を水族館に絞るA案か、北海道×三重のB案か。詳細は threads-ando: notes/muse-handoff-2026-11-16_drafts-feedback.md
 - 2026-11-16 / Scape Note カスピ海 8/8 の外務省の地図: こちらの環境から取得できず未配置。PDF(外務省「中国による東シナ海での一方的資源開発の現状」の地図)を渡してもらえれば画像にする。ほかに、風刺イラストの人物の確認、標準形での裏取り(プロンプトあり)、推測の一文の扱い。詳細は threads-ando: notes/muse-handoff-2026-11-16_scape-saudi-caspian-images.md
+- 2026-11-21 / Scape Note 流線図のデータ拡張: 第1弾の14品目(原油・LNG・石炭・鉄鉱石・銅鉱石・ボーキサイト・ニッケル鉱石・炭酸リチウム・小麦・大豆・とうもろこし・コーヒー・カカオ・パーム油)でよいか、数量(トン)で見せるか、1セットのルート本数。決まったら (1)(2) のリサーチを実行。詳細は chiri-site: notes/muse-handoff-2026-11-21_flow-data.md
