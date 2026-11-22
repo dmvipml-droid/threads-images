@@ -72,6 +72,7 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 - [完了] 2026-11-22 14:30 JST / Scape Note 流線図の確認待ち3点(14品目の公開・外した2行・一覧の最初は原油)が確定。データは反映済みで変更なし / chiri-site: notes/muse-handoff-2026-11-22_flow-data-applied.md(末尾の追記)
 - [完了] 2026-11-22 19:40 JST / AI活用・スキル追加候補6件の評価(HF導入済み・Context7導入・Playwright見送り・prompts.chat見送り・Voice DNA実験・Higgsfield小実験)とリサーチ用プロンプト / threads-ando: notes/muse-handoff-2026-11-22_ai-tools-eval.md(threads-images から移動) / 判断済み(5点ともおすすめどおり)
 - [完了] 2026-11-22 20:50 JST / AIツール候補の決定の反映(評価の申し送りを threads-ando へ移動・Context7 のドキュメント参照の例外を5リポジトリの CLAUDE.md に明記) / threads-ando: notes/muse-handoff-2026-11-22_ai-tools-decisions.md / Context7 の導入コマンドはユーザーの PC で実行待ち・Voice DNA はパック待ち
+- [完了] 2026-11-22 21:40 JST / Voice DNA 実験の準備(文体カード試作2本・カードあり/なしの下書き各6本・目隠し比較シート) / threads-ando: notes/muse-handoff-2026-11-22_voice-dna.md(threads-autopilot: voice/ にすずの分) / ユーザーの判定が要る(下の確認待ち)
 ## 作業中ログ
 - 2026-11-13 08:58 LINEスタンプ第1弾 強がりロボ清書＋保留記述更新 / 第2弾 ねむらし・のびぴ本番制作：両方とも着手済み・作業中（依頼の受信が今朝になったため開始が遅れました）。完了時に threads-ando: notes/muse-handoff-2026-11-13_stamp-wave1.md / _stamp-wave2.md と完了ログへ記録
 （まだなし）
@@ -91,3 +92,4 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 - 2026-11-21 / Scape Note 流線図のデータ拡張: 第1弾の14品目(原油・LNG・石炭・鉄鉱石・銅鉱石・ボーキサイト・ニッケル鉱石・炭酸リチウム・小麦・大豆・とうもろこし・コーヒー・カカオ・パーム油)でよいか、数量(トン)で見せるか、1セットのルート本数。決まったら (1)(2) のリサーチを実行。詳細は chiri-site: notes/muse-handoff-2026-11-21_flow-data.md
 - 2026-11-22 / Scape Note の方向性: 見出しの方向(案A〜E)、次の機能の優先順(おすすめ: 産地 → 商社 → 都道府県)、方針書から子ども・共通テスト向けの記述を外してよいか。決まった機能から申し送り §6 のリサーチを標準形で実行。詳細は chiri-site: notes/muse-handoff-2026-11-22_direction-meeting.md
 - 2026-11-22 / Context7 の導入コマンドをユーザーの PC で実行(おすすめは --scope user 付き)。Voice DNA の手本投稿パック待ち(置き場所の指定あり)。詳細 threads-ando: notes/muse-handoff-2026-11-22_ai-tools-decisions.md
+- 2026-11-22 / Voice DNA 目隠し判定: threads-ando の voice/experiment-2026-11-22/blind-sheet.md の回答欄6行を埋める(key.md は判定後に開く)。詳細 threads-ando: notes/muse-handoff-2026-11-22_voice-dna.md
