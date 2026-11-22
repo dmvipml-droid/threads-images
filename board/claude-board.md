@@ -68,6 +68,7 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 
 - [完了] 2026-11-22 13:30 JST / Scape Note 方向性会議の反映(会議の要約・方針書に方向性の見直し・次の機能3つの見立てとリサーチ用プロンプト) / chiri-site: notes/muse-handoff-2026-11-22_direction-meeting.md(ブランチ step2-design) / ユーザーの判断が要る(下の確認待ち)
 - [完了] 2026-11-22 14:30 JST / Scape Note 流線図の確認待ち3点(14品目の公開・外した2行・一覧の最初は原油)が確定。データは反映済みで変更なし / chiri-site: notes/muse-handoff-2026-11-22_flow-data-applied.md(末尾の追記)
+- [完了] 2026-11-22 19:40 JST / AI活用・スキル追加候補6件の評価(HF導入済み・Context7導入・Playwright見送り・prompts.chat見送り・Voice DNA実験・Higgsfield小実験)とリサーチ用プロンプト / threads-images: notes/muse-handoff-2026-11-22_ai-tools-eval.md(threads-ando に接続できず仮置き) / ユーザーの判断が要る(下の確認待ち)
 ## 作業中ログ
 - 2026-11-13 08:58 LINEスタンプ第1弾 強がりロボ清書＋保留記述更新 / 第2弾 ねむらし・のびぴ本番制作：両方とも着手済み・作業中（依頼の受信が今朝になったため開始が遅れました）。完了時に threads-ando: notes/muse-handoff-2026-11-13_stamp-wave1.md / _stamp-wave2.md と完了ログへ記録
 （まだなし）
@@ -86,3 +87,4 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 - 2026-11-16 / Scape Note カスピ海 8/8 の外務省の地図: こちらの環境から取得できず未配置。PDF(外務省「中国による東シナ海での一方的資源開発の現状」の地図)を渡してもらえれば画像にする。ほかに、風刺イラストの人物の確認、標準形での裏取り(プロンプトあり)、推測の一文の扱い。詳細は threads-ando: notes/muse-handoff-2026-11-16_scape-saudi-caspian-images.md
 - 2026-11-21 / Scape Note 流線図のデータ拡張: 第1弾の14品目(原油・LNG・石炭・鉄鉱石・銅鉱石・ボーキサイト・ニッケル鉱石・炭酸リチウム・小麦・大豆・とうもろこし・コーヒー・カカオ・パーム油)でよいか、数量(トン)で見せるか、1セットのルート本数。決まったら (1)(2) のリサーチを実行。詳細は chiri-site: notes/muse-handoff-2026-11-21_flow-data.md
 - 2026-11-22 / Scape Note の方向性: 見出しの方向(案A〜E)、次の機能の優先順(おすすめ: 産地 → 商社 → 都道府県)、方針書から子ども・共通テスト向けの記述を外してよいか。決まった機能から申し送り §6 のリサーチを標準形で実行。詳細は chiri-site: notes/muse-handoff-2026-11-22_direction-meeting.md
+- 2026-11-22 / AI活用候補の評価: 申し送りを threads-ando へ移してよいか、Context7 導入とブラウザ移管ルールの例外扱い、prompts.chat の接続を外すか、Voice DNA の目隠し比較をするか、Higgsfield 段階0(HF Spaces で試し打ち)をするか。詳細 threads-images: notes/muse-handoff-2026-11-22_ai-tools-eval.md
