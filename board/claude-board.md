@@ -17,6 +17,7 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 - 質問や確認待ちが発生したら「確認待ち」に書く
 
 ## 完了ログ
+- [完了] 2026-11-22 JST / Gemini 画像の配置 ando/202611/ando-20261121-05.png・-22.png(イメージ表記を追加)、ジオイド12の位置表現を修正(画像・清書) / threads-ando: notes/muse-handoff-2026-11-21_bulk-feedback.md(「2026-11-22 夜の追記」。05 の内容に確認依頼あり)
 - [完了] 2026-11-22 JST / 画像 第2便 点数上位10件(ando/202611/ando-20261121-{09,11,12,14,15,16,17,18,19,20}.png) / threads-ando: notes/muse-handoff-2026-11-21_bulk-feedback.md(「画像 第2便」に image_url と Muse への確認依頼2件)
 - [完了] 2026-11-22 JST / ブラウザ操作系タスクの Muse への移管(Claude の定期タスクの停止・書き換え、CLAUDE.md の役割分担) / threads-ando: notes/muse-handoff-2026-11-22_browser-tasks-migration.md
 - [完了] 2026-11-21 JST / 日曜〜火曜の7本のフック画像(ando/202611/ando-20261121-{03,77,07,04,10,13,08}.png)+禁止語「仕込」をお酒の仕込みだけ例外に / threads-ando: notes/muse-handoff-2026-11-21_bulk-feedback.md(「画像 第1便」の表に image_url) / ユーザー確認あり(硫黄島は衛星画像風をやめて大きさ比較に、高槻は町丁地図のデータ待ち)
