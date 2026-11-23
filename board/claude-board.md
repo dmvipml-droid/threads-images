@@ -17,6 +17,7 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 - 質問や確認待ちが発生したら「確認待ち」に書く
 
 ## 完了ログ
+- [完了] 2026-11-23 JST / Gemini 画像 37(差し替え版)を配置・image_url 設定 / threads-ando: notes/muse-handoff-2026-11-23_gemini-images-37-51-62-64.md
 - [完了] 2026-11-23 JST / Gemini 画像 51・62・64 を配置(37 は保留・再生成依頼) / threads-ando: notes/muse-handoff-2026-11-23_gemini-images-37-51-62-64.md
 - [完了] 2026-11-23 JST / 優先画像6件(21・23・24・25・27・29)+準チョコ精査・画像2枚・キュー(pending_approval)+新規ネタ5件の裏取り設計 / threads-ando: notes/muse-handoff-2026-11-23_batch.md
 - [完了] 2026-11-22 JST / 長野ファン05の画像差し替え、丸亀(12/1版)・トレトレ(鮮度なし版)の文面フィードバックと清書更新、丸亀の画像01を追加 / threads-ando: notes/muse-handoff-2026-11-21_bulk-feedback.md(「夜の追記2」)
