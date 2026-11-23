@@ -17,6 +17,7 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 - 質問や確認待ちが発生したら「確認待ち」に書く
 
 ## 完了ログ
+- [完了] 2026-11-23 JST / 優先画像6件(21・23・24・25・27・29)+準チョコ精査・画像2枚・キュー(pending_approval)+新規ネタ5件の裏取り設計 / threads-ando: notes/muse-handoff-2026-11-23_batch.md
 - [完了] 2026-11-22 JST / 長野ファン05の画像差し替え、丸亀(12/1版)・トレトレ(鮮度なし版)の文面フィードバックと清書更新、丸亀の画像01を追加 / threads-ando: notes/muse-handoff-2026-11-21_bulk-feedback.md(「夜の追記2」)
 - [完了] 2026-11-22 JST / Gemini 画像の配置 ando/202611/ando-20261121-05.png・-22.png(イメージ表記を追加)、ジオイド12の位置表現を修正(画像・清書) / threads-ando: notes/muse-handoff-2026-11-21_bulk-feedback.md(「2026-11-22 夜の追記」。05 の内容に確認依頼あり)
 - [完了] 2026-11-22 JST / 画像 第2便 点数上位10件(ando/202611/ando-20261121-{09,11,12,14,15,16,17,18,19,20}.png) / threads-ando: notes/muse-handoff-2026-11-21_bulk-feedback.md(「画像 第2便」に image_url と Muse への確認依頼2件)
@@ -78,6 +79,7 @@ Muse がこのファイルの変更を検知して、新しい完了ログがあ
 （まだなし）
 
 ## 確認待ち
+- 2026-11-23 西濃運輸・新岡山支店の裏取りは11/25までに返してほしい。27うめきたの森の見出しの扱い(詳細 threads-ando: notes/muse-handoff-2026-11-23_batch.md)
 - 2026-11-21 丸亀製麺・トレトレ倉庫は今日中に出す前提。下書きOKと画像の扱い、投稿前の軽い確認(丸亀の香川県内店舗数、長野の振替発表の有無)(詳細 threads-ando: notes/muse-handoff-2026-11-21_bulk-feedback.md)
 - 2026-11-13 LINEスタンプ第2弾：preview 2枚の画質OKか・著作権表記の名前・タイトル案・AI利用の申告(詳細 threads-ando: notes/muse-handoff-2026-11-13_stamp-wave2.md)
 - 2026-11-13 強がりロボ清書の最終OK・コピーライト名義・カテゴリ（threads-ando: notes/muse-handoff-2026-11-13_stamp-wave1.md）
